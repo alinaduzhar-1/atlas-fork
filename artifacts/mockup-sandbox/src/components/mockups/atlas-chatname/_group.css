@@ -1,0 +1,6 @@
+@keyframes atlas-title-marquee {
+  0% { transform: translateX(0); }
+  15% { transform: translateX(0); }
+  85% { transform: translateX(var(--marquee-shift)); }
+  100% { transform: translateX(var(--marquee-shift)); }
+}

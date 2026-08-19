@@ -1,0 +1,68 @@
+.wrapper {
+  display: grid;
+  grid-template-columns:
+    1fr min(var(--main-content-max-w, 64rem), 100%) 1fr;
+  padding-block-start: var(--layout-gutter-top, var(--spacing-4x));
+  padding-block-end: var(--layout-gutter-bottom, var(--spacing-8x));
+  padding-inline: var(--layout-gutter-inline, var(--spacing-3x));
+}
+
+.wrapper>* {
+  grid-column: 2;
+}
+
+.fullBleed {
+  width: 100%;
+  grid-column: 1 / 4;
+}
+
+.panelGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "title"
+    "aside"
+    "main";
+  gap: var(--spacing-5x) var(--spacing-4x);
+
+  @media (width >=48rem) {
+    grid-template-columns: 1fr 12.5rem;
+    grid-template-areas:
+      "title title"
+      "main aside";
+  }
+
+  @media (width >=64rem) {
+    grid-template-columns: 1fr 16.5rem;
+    grid-template-areas:
+      "title title"
+      "main aside";
+  }
+}
+
+.panelTitle {
+  grid-area: title;
+}
+
+.panelMain {
+  grid-area: main;
+}
+
+.panelAside {
+  grid-area: aside;
+}
+
+.panelAsideInner {
+  align-items: start;
+  position: sticky;
+  top: calc(var(--nav-header-height, 4rem) + var(--layout-gutter-top, var(--spacing-4x)));
+}
+
+.fiftyFiftyGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+
+  @media (width >=48rem) {
+    grid-template-columns: 1fr 1fr;
+  }
+}

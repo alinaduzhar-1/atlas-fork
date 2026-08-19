@@ -1,0 +1,19 @@
+- [Atlas cross-tab sync partitioning](atlas-cross-tab-sync-partitioning.md) — preview iframe vs. separate tab localStorage is partitioned; mirroring must go through the server (poll + version).
+- [Atlas shared-state sync pitfalls](atlas-shared-sync.md) — force-flush active chat before opening full screen; never treat a missing chat in a snapshot as deleted unless previously seen.
+- [Atlas panel header structure](atlas-header.md) — two separate "after"-mode headers (chat-mode + welcome) plus a HistoryPanel; header affordance changes must be applied to all in sync (3 new-chat header spots incl. welcome).
+- [Vite duplicate-React invalid hook call](vite-react-dup.md) — "Invalid hook call / null useState" after adding a client dep is usually a stale .vite cache, not a hook bug; clear it and restart.
+- [Atlas structured agentic actions](atlas-structured-actions.md) — After-mode side-effects (e.g. OTJ logging) use a model-emitted fenced block → backend parses to `action` → frontend renders a card that does the real POST.
+- [OTJ query freshness](otj-query-freshness.md) — global query defaults cache forever; live data like OTJ progress needs per-key polling defaults, or other tabs/iframes never update.
+- [Log OTJ conversational confirm](otj-log-confirm-flow.md) — draft card has no button; affirmative chat replies are intercepted client-side to POST the log and append a success-card message.
+- [OTJ drafts review flow](otj-drafts-review-ui.md) — Drafts tab must mirror Log OTJ exactly: conversational reply-to-confirm (no checkbox/button), same guidance copy, green-flip on confirm.
+- [OTJ seeded entries vs aggregate totals](otj-seed-aggregate.md) — seeded OTJ entries are display-only, but confirming a seeded draft DOES move total/weekly logged minutes via `confirmedSeedMinutes`.
+- [Editing AI-generated pending OTJ drafts](otj-pending-draft-edit-reliability.md) — ephemeral otj_log previews (no id) rely on model re-emitting all blocks; fixed with server merge-over-pending + strict prompt.
+- [Atlas Fast Refresh / stale bundle](atlas-fast-refresh.md) — if an atlas.tsx fix seems to do nothing, suspect broken HMR (mixed exports/circular import) → stale tab, not wrong code. Keep value consts in atlas-constants, context in atlas-version-context.
+- [OTJ duplicate detection](otj-duplicate-detection.md) — exact task+date+duration duplicates are blocked by a deterministic server guard at otj-log parse time, NOT a prompt rule (prompt over-triggers false positives).
+- [OTJ draft-edit over-trigger](otj-draft-edit-overtrigger.md) — keyword-based retry guard forced fake draft edits on general questions and doubled latency; match completed-action claims, not topic words.
+- [OTJ display category labels](otj-category-labels.md) — card category prefers stored categoryLabel when it matches one of the 11 official labels; Atlas edits it via optional categoryLabel in edit blocks.
+- [OTJ duration must be explicit](otj-duration-explicit.md) — never infer duration from activity type; ask before emitting a draft card.
+- [Atlas context setter identity](atlas-context-setter-identity.md) — context setters must be useCallback-stable, or effects keyed on them re-run each render and undo programmatic collapses.
+- [Atlas sidebar fullscreen lock](atlas-sidebar-fullscreen-lock.md) — visiting /atlas locks the sidebar closed for that tab via sessionStorage; guarded setter + hidden reopen UI.
+- [Task merges revert concurrent edits](task-merge-clobbers-main-edits.md) — after a project-task merge, grep for your recent edits in shared files; merges can silently clobber them.
+- [Atlas logged-entry editability](otj-atlas-logged-entries-visibility.md) — Atlas can only edit a logged entry if it's in the prompt's LOGGED list; a slice cap hid old-createdAt seeds → "isn't listed" refusals.

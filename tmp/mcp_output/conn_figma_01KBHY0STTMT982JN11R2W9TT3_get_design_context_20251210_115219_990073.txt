@@ -1,0 +1,1186 @@
+<mcp_external_output>
+
+### Content Block 1 (Text)
+const imgInitials = "https://www.figma.com/api/mcp/asset/08685bdc-80ac-4f97-84ec-ae2f2640cb5a";
+const img = "https://www.figma.com/api/mcp/asset/930b632b-f7ee-4722-b940-5a3ec96e85ae";
+const img1 = "https://www.figma.com/api/mcp/asset/4cebc93f-ac26-40ad-b961-5d53353d7fe9";
+const img2 = "https://www.figma.com/api/mcp/asset/3a511862-f948-4f23-8919-ae761b6dd20f";
+const imgFrame1597884812 = "https://www.figma.com/api/mcp/asset/d4a94a39-3daf-45e2-934e-2b1e1444b5fe";
+const imgGroup1422156133 = "https://www.figma.com/api/mcp/asset/45b02458-2e80-4d2a-9509-2bf470368daa";
+const img3 = "https://www.figma.com/api/mcp/asset/87b20ba3-7a5c-4e48-904b-52bef7f91cd4";
+const img4 = "https://www.figma.com/api/mcp/asset/006227f4-b53d-437e-89a9-f6b672dc3141";
+const img5 = "https://www.figma.com/api/mcp/asset/b82dbc0f-e46a-495f-ac7e-316c9c491319";
+const img6 = "https://www.figma.com/api/mcp/asset/b27b3efc-605c-4bb7-b227-c14c4a8d75ed";
+const img7 = "https://www.figma.com/api/mcp/asset/846381b6-7fda-443d-8dc2-0eb00fedf73d";
+const img8 = "https://www.figma.com/api/mcp/asset/5f6f6d0f-bbff-4718-b14b-e934c957d7ec";
+const img9 = "https://www.figma.com/api/mcp/asset/52d9b70b-9c26-422e-899a-6cd2529aaa45";
+const img10 = "https://www.figma.com/api/mcp/asset/6a3aea3c-3051-40fd-bbd8-7297c0b36b0a";
+const img11 = "https://www.figma.com/api/mcp/asset/173dd4e7-760a-40d0-bb1a-ef795bcf587a";
+const img12 = "https://www.figma.com/api/mcp/asset/17b80acf-8fad-480e-a000-be25267cb2ae";
+const img13 = "https://www.figma.com/api/mcp/asset/526dfe0e-96cc-4164-bcf8-c54e1a78cd13";
+const img14 = "https://www.figma.com/api/mcp/asset/c9c379a3-7df0-4875-aa73-4d766f86b390";
+const img15 = "https://www.figma.com/api/mcp/asset/9c692e55-5b26-4f57-b0a5-0f17382f327d";
+const img16 = "https://www.figma.com/api/mcp/asset/b231be55-6c8a-4a38-88e8-031756cf0966";
+const img17 = "https://www.figma.com/api/mcp/asset/e4d769aa-6254-44d2-b1bc-c1adcf5ffa69";
+const img18 = "https://www.figma.com/api/mcp/asset/73471014-b2c4-49b3-9d7f-7adf519ccf2c";
+const img19 = "https://www.figma.com/api/mcp/asset/8b58699b-d226-4e37-9614-a13c79d66efd";
+const img20 = "https://www.figma.com/api/mcp/asset/3b9d2caf-efa8-429a-b653-aae3236279d1";
+const img21 = "https://www.figma.com/api/mcp/asset/87ada8db-5c13-4f49-a254-389b71003870";
+const img22 = "https://www.figma.com/api/mcp/asset/f273f30b-0d5f-4f86-9f63-559db80368ed";
+const img23 = "https://www.figma.com/api/mcp/asset/0b67503f-bd54-4f6e-8e23-fa145b8bd45a";
+const img24 = "https://www.figma.com/api/mcp/asset/d08b83a2-fc4d-41e8-a5ed-ee94eba661b9";
+const img25 = "https://www.figma.com/api/mcp/asset/8d50190d-e52c-42af-bf8c-3d4066c59e1f";
+const img26 = "https://www.figma.com/api/mcp/asset/791f239f-124e-487e-b307-120842288eb3";
+const img27 = "https://www.figma.com/api/mcp/asset/4437bf79-6c0a-4220-89de-1baaef6e3d1a";
+const img28 = "https://www.figma.com/api/mcp/asset/3b29632f-4246-4e06-ac05-e255766df8d2";
+const img29 = "https://www.figma.com/api/mcp/asset/8bdd6b0a-c9f8-4669-82b1-491abce02c2b";
+const img30 = "https://www.figma.com/api/mcp/asset/c7fd01fa-5b76-4723-bce7-1e4f398645a8";
+const img31 = "https://www.figma.com/api/mcp/asset/8e6a1fa2-434c-450e-b0cc-e61327683c73";
+const img32 = "https://www.figma.com/api/mcp/asset/c79a245c-7d41-4a79-b3ea-5d5882a4e719";
+const img33 = "https://www.figma.com/api/mcp/asset/ed76b61b-43c8-4fef-aef8-ea1492557661";
+const img34 = "https://www.figma.com/api/mcp/asset/1bb1a763-d3bd-4129-a0b5-50c7d14dcdcc";
+const img35 = "https://www.figma.com/api/mcp/asset/e2e9535e-322b-4829-a580-6770f6bf6edd";
+const img36 = "https://www.figma.com/api/mcp/asset/7a64079c-2828-4e8a-b34e-97dacc129165";
+const img37 = "https://www.figma.com/api/mcp/asset/7c632d63-c188-4991-becc-c44ec27c24ed";
+const img38 = "https://www.figma.com/api/mcp/asset/deff39b7-0174-497f-8e76-a1589c8a8da3";
+const img39 = "https://www.figma.com/api/mcp/asset/20121489-a4a9-42e4-a74e-3a0d924505bd";
+const img40 = "https://www.figma.com/api/mcp/asset/7349571e-cb61-41dd-8cff-2aa3c53c3cf2";
+const img41 = "https://www.figma.com/api/mcp/asset/f957c29a-6981-4949-814f-dde5e8b4b7fa";
+const img42 = "https://www.figma.com/api/mcp/asset/578835f6-936e-431e-ae43-5f002e1b2c4f";
+const img43 = "https://www.figma.com/api/mcp/asset/cf965708-f606-48a3-811a-ee5d6061c013";
+const img44 = "https://www.figma.com/api/mcp/asset/b6bd164c-fb72-4855-8c53-d463b2c62d35";
+const img45 = "https://www.figma.com/api/mcp/asset/4d09c496-ab3a-4675-ae16-1bfde616c827";
+const img46 = "https://www.figma.com/api/mcp/asset/fb872c12-d331-4b14-b3ba-bf81c86a0d3a";
+const img47 = "https://www.figma.com/api/mcp/asset/3cf1869f-8283-462a-a50a-4730deaebd02";
+const img48 = "https://www.figma.com/api/mcp/asset/16e86ef8-0f69-499e-9265-432663b8401f";
+const img49 = "https://www.figma.com/api/mcp/asset/54c4b8f7-d526-4e9a-88bd-dbdcf24ef800";
+const img50 = "https://www.figma.com/api/mcp/asset/8af9e343-85d4-4944-8de2-7aa92e7aa712";
+const img51 = "https://www.figma.com/api/mcp/asset/114cfc63-af42-4b42-a139-3984d65e8b6d";
+const img52 = "https://www.figma.com/api/mcp/asset/659701b6-083e-47b8-a931-824fcc1689f8";
+const img53 = "https://www.figma.com/api/mcp/asset/d34e0ab1-afbd-4996-bd35-2b2faae09f2e";
+const img54 = "https://www.figma.com/api/mcp/asset/e3e2d40e-8c86-4cdd-a78d-242f3422fd45";
+const img55 = "https://www.figma.com/api/mcp/asset/456c588b-82ac-47f6-bedc-e7c7b777c4b9";
+const img56 = "https://www.figma.com/api/mcp/asset/0176cb58-9ef3-489c-afcf-b30fa681dbc3";
+const img57 = "https://www.figma.com/api/mcp/asset/2932ea4f-db1b-47a0-b3a3-50def82d2d83";
+const img58 = "https://www.figma.com/api/mcp/asset/1fd55c43-1353-475e-8a7d-e3724b66b2c3";
+const img59 = "https://www.figma.com/api/mcp/asset/b365a949-2378-43a8-8caf-10e7e119a029";
+const img60 = "https://www.figma.com/api/mcp/asset/11d4d334-4edd-4fb5-9bb5-131cde49771a";
+const img61 = "https://www.figma.com/api/mcp/asset/972893a4-bf6a-49f8-b4a3-ff5a5bef0d23";
+const img62 = "https://www.figma.com/api/mcp/asset/135a8ad7-abd8-4cef-a140-a305ccf37fe5";
+const img63 = "https://www.figma.com/api/mcp/asset/87046be9-398d-4b9d-89a8-7f7584a7e252";
+const img64 = "https://www.figma.com/api/mcp/asset/5268c289-42e4-4500-afce-b05c31751d1e";
+const img65 = "https://www.figma.com/api/mcp/asset/fde251bf-e121-483b-b797-c315efed0c9d";
+const img66 = "https://www.figma.com/api/mcp/asset/27eb14f9-99e3-435a-8d04-9cf3151ff6ef";
+const img67 = "https://www.figma.com/api/mcp/asset/0db9015e-65f6-4634-8b03-e596c707c1cd";
+const img68 = "https://www.figma.com/api/mcp/asset/40fb991b-fdc8-4a93-970f-3b2e027290be";
+const img69 = "https://www.figma.com/api/mcp/asset/ba2ad130-aaaf-4cef-a70d-c04457477657";
+const img70 = "https://www.figma.com/api/mcp/asset/823026d3-3988-4cdb-95e5-eb5e787a73a9";
+const img71 = "https://www.figma.com/api/mcp/asset/8982db80-c6d6-432a-92c5-8a02aacd5b77";
+const img72 = "https://www.figma.com/api/mcp/asset/bcd10909-9b84-4c03-8602-6d655ab5ae1f";
+const img73 = "https://www.figma.com/api/mcp/asset/1a3f2da3-626b-4a63-be7d-c33add4a1418";
+const img74 = "https://www.figma.com/api/mcp/asset/9fa6a105-4283-4849-aabf-c8e94633c604";
+const img75 = "https://www.figma.com/api/mcp/asset/4c852e9a-221d-49a2-a77f-f39e169b5732";
+const img76 = "https://www.figma.com/api/mcp/asset/70e9eb57-09d5-4013-84ec-0b2e3fe5d7ff";
+const img77 = "https://www.figma.com/api/mcp/asset/e5ff2053-0c04-4951-91ed-7f0547f43dcd";
+type CheckboxProps = {
+  className?: string;
+  state?: boolean;
+  interactionState?: "Default" | "Hover" | "Active";
+};
+
+function Checkbox({ className, state = false, interactionState = "Default" }: CheckboxProps) {
+  return <div data-node-id="1005:67037" className={className} />;
+}
+type CheckboxLabelProps = {
+  className?: string;
+  label?: string;
+  description?: string;
+  description1?: boolean;
+  size?: "Default (text-m)";
+  disabled?: "false";
+};
+
+function CheckboxLabel({ className, label = "Label text", description = "Description", description1 = false, size = "Default (text-m)", disabled = "false" }: CheckboxLabelProps) {
+  return (
+    <div data-node-id="1005:67072" className={className}>
+      <div data-node-id="1005:67076" className="content-stretch flex items-center px-0 py-[var(--spacing\\/0-25x,2px)] relative shrink-0" data-name="Container">
+        <Checkbox className="bg-[var(--bg-color\/input,#ffffff)] border-[1.5px] border-[var(--color\/gray\/900,#212223)] border-solid rounded-[var(--rounded\/md,6px)] shadow-[0px_1px_4px_0px_rgba(0,0,0,0.06)] shrink-0 size-[20px]" />
+      </div>
+      <div data-node-id="1005:67078" className={`content-stretch flex flex-[1_0_0] flex-col font-["Saans:Regular",sans-serif] gap-[var(--spacing\\/0-25x,2px)] items-center justify-center leading-[0] min-h-px min-w-px not-italic relative self-stretch shrink-0 text-[16px] tracking-[0.32px]`} data-name="Container">
+        <div className="flex flex-col justify-center relative shrink-0 text-[color:var(--text-color\/primary,#212223)] w-full" data-node-id="1005:67079">
+          <p className="leading-[1.5] whitespace-pre-wrap">{label}</p>
+        </div>
+        {description1 && (
+          <div className="flex flex-col justify-center relative shrink-0 text-[color:var(--text-color\/secondary,#6f7171)] w-full" data-node-id="1005:67080">
+            <p className="leading-[1.5] whitespace-pre-wrap">{description}</p>
+          </div>
+        )}
+      </div>
+    </div>
+  );
+}
+type ProfileChipProps = {
+  className?: string;
+  initials?: string;
+  variation?: "4" | "8" | "11" | "Photo";
+  size?: "24px" | "32px";
+};
+
+function ProfileChip({ className, initials = "AB", variation = "4", size = "24px" }: ProfileChipProps) {
+  const is11And24Px = variation === "11" && size === "24px";
+  const is4And24Px = variation === "4" && size === "24px";
+  const isPhotoAnd32Px = variation === "Photo" && size === "32px";
+  return (
+    <div id={is4And24Px ? "node-13_8647" : is11And24Px ? "node-13_8661" : isPhotoAnd32Px ? "node-13_8716" : ""} className={className}>
+      {(is4And24Px || is11And24Px) && (
+        <div className="absolute flex flex-col font-['Saans:SemiBold',sans-serif] inset-[4px_0] justify-center leading-[0] not-italic text-[10px] text-[rgba(0,0,0,0.72)] text-center tracking-[0.2px] uppercase" data-node-id="13:8648">
+          <p className="leading-[normal] whitespace-pre-wrap">{initials}</p>
+        </div>
+      )}
+      {isPhotoAnd32Px && <img className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[var(--rounded\\/full,999px)] size-full" alt="" src={imgInitials} />}
+    </div>
+  );
+}
+type SwitchModeButtonProps = {
+  className?: string;
+  userType?: "Learning";
+};
+
+function SwitchModeButton({ className, userType = "Learning" }: SwitchModeButtonProps) {
+  return (
+    <div data-node-id="13:10283" className={className}>
+      <div data-node-id="13:10284" className="bg-[var(--bg-color\\/action-secondary-base,#ffffff)] border-[0.5px] border-[var(--border-color\\/action-tertiary-base,#dbdad6)] border-solid content-stretch flex gap-[var(--spacing\\/0-5x,4px)] h-[32px] items-center justify-center px-[var(--spacing\\/1-5x,12px)] py-[var(--spacing\\/1x,8px)] relative rounded-[var(--rounded\\/lg,8px)] shadow-[0px_1px_4px_0px_rgba(0,0,0,0.06)] shrink-0" data-name="_switch mode button">
+        <div data-node-id="I13:10284;20866:1771" className={`flex flex-col font-["Saans:Medium",sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[14px] text-[color:var(--text-color\\/primary,#212223)] text-center tracking-[0.28px] whitespace-nowrap`}>
+          <p className="leading-[1.25]">Learning</p>
+        </div>
+        <div data-node-id="I13:10284;20866:1772" className="overflow-clip relative shrink-0 size-[16px]" data-name="Icon">
+          <div data-node-id="I13:10284;20866:1772;1061:21785" className="absolute bottom-[37.5%] left-1/2 top-[37.5%] translate-x-[-50%] w-[8px]" data-name="Vector">
+            <div className="absolute inset-[-12.5%_-6.25%]" style={{ "--stroke-0": "rgba(33, 34, 35, 1)" } as React.CSSProperties}>
+              <img className="block max-w-none size-full" alt="" src={img} />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+type NavigationActionsProps = {
+  className?: string;
+  mobile?: "False";
+  back?: boolean;
+  layout?: "Default";
+};
+
+function NavigationActions({ className, mobile = "False", back = true, layout = "Default" }: NavigationActionsProps) {
+  const isFalseAndBackAndDefault = mobile === "False" && back && layout === "Default";
+  return (
+    <div id={isFalseAndBackAndDefault ? "node-1005_65572" : mobile === "False" && !back && layout === "Default" ? "node-1005_65573" : ""} className={className}>
+      {isFalseAndBackAndDefault && (
+        <div data-node-id="1005:65577" className="content-stretch flex gap-[var(--spacing\\/0-5x,4px)] h-[32px] items-center justify-center px-[var(--spacing\\/0x,0px)] py-[var(--spacing\\/1x,8px)] relative rounded-[8px] shadow-[0px_1px_4px_0px_rgba(0,0,0,0.06)] shrink-0" data-name="Back button">
+          <div data-node-id="I1005:65577;718:40644" className="overflow-clip relative shrink-0 size-[16px]" data-name="Icon">
+            <div data-node-id="I1005:65577;718:40644;1412:19439" className="absolute bottom-1/2 left-1/4 right-1/4 top-1/2" data-name="Vector">
+              <div className="absolute inset-[-0.5px_-6.25%]" style={{ "--stroke-0": "rgba(74, 95, 247, 1)" } as React.CSSProperties}>
+                <img className="block max-w-none size-full" alt="" src={img1} />
+              </div>
+            </div>
+            <div data-node-id="I1005:65577;718:40644;1412:19440" className="absolute bottom-1/4 left-1/4 right-[54.17%] top-1/4" data-name="Vector">
+              <div className="absolute inset-[-6.25%_-15%]" style={{ "--stroke-0": "rgba(74, 95, 247, 1)" } as React.CSSProperties}>
+                <img className="block max-w-none size-full" alt="" src={img2} />
+              </div>
+            </div>
+          </div>
+          <div data-node-id="I1005:65577;718:40645" className={`flex flex-col font-["Saans:Medium",sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[14px] text-[color:var(--text-color\\/action-base,#4a5ff7)] text-center tracking-[0.28px] whitespace-nowrap`}>
+            <p className="leading-[1.25]">Back to home</p>
+          </div>
+        </div>
+      )}
+    </div>
+  );
+}
+
+function AtlasBubble({ className }: { className?: string }) {
+  return (
+    <div className={className} data-name="Atlas bubble" data-node-id="1024:65057">
+      <div className="content-stretch flex flex-col items-start relative shrink-0" data-node-id="1024:65054">
+        <div className="flex flex-col font-['Saans:Medium',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[14px] text-[color:var(--text-color\/primary,#212223)] tracking-[0.28px] whitespace-nowrap" data-node-id="1024:65055">
+          <p className="leading-[1.25]">Here to help you when you need!</p>
+        </div>
+      </div>
+      <div className="absolute h-[11px] right-[23px] top-[39px] w-[20px]" data-node-id="1024:65097">
+        <div className="absolute inset-[0_-10%_-18.18%_-10%]">
+          <img alt="" className="block max-w-none size-full" src={imgFrame1597884812} />
+        </div>
+      </div>
+    </div>
+  );
+}
+type AtlasIconProps = {
+  className?: string;
+  size?: "Small" | "Medium";
+};
+
+function AtlasIcon({ className, size = "Small" }: AtlasIconProps) {
+  return (
+    <div data-node-id="1011:42208" className={className}>
+      <div data-node-id="1011:42201" className="absolute contents inset-0">
+        <div className="absolute flex inset-0 items-center justify-center">
+          <div className="flex-none h-[25.21px] rotate-[356.122deg] w-[26.356px]">
+            <div data-node-id="1011:42202" className="bg-[var(--bg-color\\/primary,#ffffff)] rounded-[8.605px] shadow-[0px_4px_8px_0px_rgba(26,29,35,0.08),0px_0px_1px_0px_rgba(144,146,145,0.56)] size-full" />
+          </div>
+        </div>
+        <div className="absolute flex inset-[19.92%_25.81%_22.38%_22.26%] items-center justify-center">
+          <div className="flex-none h-[14.657px] rotate-[356.122deg] w-[13.581px]">
+            <div data-node-id="1011:42203" className="relative size-full">
+              <img className="block max-w-none size-full" alt="" src={imgGroup1422156133} />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+type MessageActionsProps = {
+  className?: string;
+  state?: "Actions";
+};
+
+function MessageActions({ className, state = "Actions" }: MessageActionsProps) {
+  return (
+    <div data-node-id="1011:42442" className={className}>
+      <div data-node-id="1011:42403" className="relative shrink-0 size-[32px]" data-name="Atlas Icon">
+        <div data-node-id="I1011:42403;1011:42201" className="absolute contents inset-0">
+          <div className="absolute flex inset-0 items-center justify-center">
+            <div className="flex-none h-[25.21px] rotate-[356.122deg] w-[26.356px]">
+              <div data-node-id="I1011:42403;1011:42202" className="bg-[var(--bg-color\\/primary,#ffffff)] rounded-[8.605px] shadow-[0px_4px_8px_0px_rgba(26,29,35,0.08),0px_0px_1px_0px_rgba(144,146,145,0.56)] size-full" />
+            </div>
+          </div>
+          <div className="absolute flex inset-[19.92%_25.81%_22.38%_22.26%] items-center justify-center">
+            <div className="flex-none h-[14.657px] rotate-[356.122deg] w-[13.581px]">
+              <div data-node-id="I1011:42403;1011:42203" className="relative size-full">
+                <img className="block max-w-none size-full" alt="" src={img3} />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-node-id="1011:42404" className="content-stretch flex items-center relative shrink-0">
+        <div data-node-id="1055:15027" className="content-stretch flex h-[32px] items-center justify-center p-[var(--spacing\\/1x,8px)] relative rounded-[var(--rounded\\/lg,8px)] shadow-[0px_1px_4px_0px_rgba(0,0,0,0.06)] shrink-0" data-name="Button">
+          <div data-node-id="I1055:15027;718:40781" className="overflow-clip relative shrink-0 size-[16px]" data-name="Icon">
+            <div data-node-id="I1055:15027;718:40781;1061:21745" className="absolute inset-[3.13%_30.21%_30.21%_3.13%]" data-name="Vector">
+              <div className="absolute inset-[-4.69%]" style={{ "--stroke-0": "rgba(111, 113, 113, 1)" } as React.CSSProperties}>
+                <img className="block max-w-none size-full" alt="" src={img4} />
+              </div>
+            </div>
+            <div data-node-id="I1055:15027;718:40781;1061:21746" className="absolute inset-[30.21%_3.12%_3.12%_30.21%]" data-name="Vector">
+              <div className="absolute inset-[-4.69%]" style={{ "--stroke-0": "rgba(111, 113, 113, 1)" } as React.CSSProperties}>
+                <img className="block max-w-none size-full" alt="" src={img5} />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div data-node-id="1055:15152" className="content-stretch flex h-[32px] items-center justify-center p-[var(--spacing\\/1x,8px)] relative rounded-[var(--rounded\\/lg,8px)] shadow-[0px_1px_4px_0px_rgba(0,0,0,0.06)] shrink-0" data-name="Button">
+          <div data-node-id="I1055:15152;718:40781" className="overflow-clip relative shrink-0 size-[16px]" data-name="Icon">
+            <div data-node-id="I1055:15152;718:40781;1061:20695" className="absolute inset-[32.29%_71.88%_36.46%_3.13%]" data-name="Vector">
+              <div className="absolute inset-[-10%_-12.5%]" style={{ "--stroke-0": "rgba(111, 113, 113, 1)" } as React.CSSProperties}>
+                <img className="block max-w-none size-full" alt="" src={img6} />
+              </div>
+            </div>
+            <div data-node-id="I1055:15152;718:40781;1061:20696" className="absolute inset-[13.54%_15.63%_17.71%_28.13%]" data-name="Vector">
+              <div className="absolute inset-[-4.55%_-5.56%]" style={{ "--stroke-0": "rgba(111, 113, 113, 1)" } as React.CSSProperties}>
+                <img className="block max-w-none size-full" alt="" src={img7} />
+              </div>
+            </div>
+            <div data-node-id="I1055:15152;718:40781;1061:20697" className="absolute inset-[41.67%_3.13%_45.83%_96.88%]" data-name="Vector">
+              <div className="absolute inset-[-25%_-0.5px]" style={{ "--stroke-0": "rgba(111, 113, 113, 1)" } as React.CSSProperties}>
+                <img className="block max-w-none size-full" alt="" src={img8} />
+              </div>
+            </div>
+            <div data-node-id="I1055:15152;718:40781;1061:20698" className="absolute inset-[63.54%_62.5%_14.58%_28.12%]" data-name="Vector">
+              <div className="absolute inset-[-14.29%_-33.33%]" style={{ "--stroke-0": "rgba(111, 113, 113, 1)" } as React.CSSProperties}>
+                <img className="block max-w-none size-full" alt="" src={img9} />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div data-node-id="1055:15268" className="content-stretch flex h-[32px] items-center justify-center p-[var(--spacing\\/1x,8px)] relative rounded-[var(--rounded\\/lg,8px)] shadow-[0px_1px_4px_0px_rgba(0,0,0,0.06)] shrink-0" data-name="Button">
+          <div data-node-id="I1055:15268;718:40781" className="overflow-clip relative shrink-0 size-[16px]" data-name="Icon">
+            <div data-node-id="I1055:15268;718:40781;1061:20853" className="absolute inset-[35.11%_77.79%_8.64%_3.46%]" data-name="Vector">
+              <div className="absolute inset-[-5.56%_-16.67%]" style={{ "--stroke-0": "rgba(111, 113, 113, 1)" } as React.CSSProperties}>
+                <img className="block max-w-none size-full" alt="" src={img10} />
+              </div>
+            </div>
+            <div data-node-id="I1055:15268;718:40781;1061:20854" className="absolute inset-[5.61%_3.46%_5.6%_22.21%]" data-name="Vector">
+              <div className="absolute inset-[-3.52%_-4.2%_-3.52%_-4.21%]" style={{ "--stroke-0": "rgba(111, 113, 113, 1)" } as React.CSSProperties}>
+                <img className="block max-w-none size-full" alt="" src={img11} />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div data-node-id="1055:15343" className="content-stretch flex h-[32px] items-center justify-center p-[var(--spacing\\/1x,8px)] relative rounded-[var(--rounded\\/lg,8px)] shadow-[0px_1px_4px_0px_rgba(0,0,0,0.06)] shrink-0" data-name="Button">
+          <div data-node-id="I1055:15343;718:40781" className="overflow-clip relative shrink-0 size-[16px]" data-name="Icon">
+            <div className="absolute flex inset-[8.65%_3.46%_35.1%_77.79%] items-center justify-center">
+              <div className="flex-none h-[9px] rotate-[180deg] w-[3px]">
+                <div data-node-id="I1055:15343;718:40781;2578:2133" className="relative size-full" data-name="Vector">
+                  <div className="absolute inset-[-5.56%_-16.67%]" style={{ "--stroke-0": "rgba(111, 113, 113, 1)" } as React.CSSProperties}>
+                    <img className="block max-w-none size-full" alt="" src={img12} />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="absolute flex inset-[5.61%_22.21%_5.6%_3.46%] items-center justify-center">
+              <div className="flex-none h-[14.206px] rotate-[180deg] w-[11.893px]">
+                <div data-node-id="I1055:15343;718:40781;2578:2134" className="relative size-full" data-name="Vector">
+                  <div className="absolute inset-[-3.52%_-4.2%_-3.52%_-4.21%]" style={{ "--stroke-0": "rgba(111, 113, 113, 1)" } as React.CSSProperties}>
+                    <img className="block max-w-none size-full" alt="" src={img13} />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div data-node-id="1055:15506" className="content-stretch flex h-[32px] items-center justify-center p-[var(--spacing\\/1x,8px)] relative rounded-[var(--rounded\\/lg,8px)] shadow-[0px_1px_4px_0px_rgba(0,0,0,0.06)] shrink-0" data-name="Button">
+          <div data-node-id="I1055:15506;718:40781" className="overflow-clip relative shrink-0 size-[16px]" data-name="Icon">
+            <div data-node-id="I1055:15506;718:40781;1061:20201" className="absolute inset-[16.67%_70.83%_58.33%_4.17%]" data-name="Vector">
+              <div className="absolute inset-[-12.5%]" style={{ "--stroke-0": "rgba(111, 113, 113, 1)" } as React.CSSProperties}>
+                <img className="block max-w-none size-full" alt="" src={img14} />
+              </div>
+            </div>
+            <div data-node-id="I1055:15506;718:40781;1061:20202" className="absolute inset-[12.54%_12.51%_12.46%_4.17%]" data-name="Vector">
+              <div className="absolute inset-[-4.17%_-3.75%]" style={{ "--stroke-0": "rgba(111, 113, 113, 1)" } as React.CSSProperties}>
+                <img className="block max-w-none size-full" alt="" src={img15} />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default function HomeAtlasExpanded() {
+  return (
+    <div className="bg-white overflow-clip relative rounded-[var(--rounded\/sm,2px)] size-full" data-name="Home / Atlas Expanded" data-node-id="1043:51896">
+      <div className="absolute bg-[#ebeced] h-[810px] left-1/2 opacity-80 top-1/2 translate-x-[-50%] translate-y-[-50%] w-[1440px]" data-name="Scrim" data-node-id="1048:11148" />
+      <div className="absolute bg-white content-stretch flex flex-col gap-[var(--spacing\/0x,0px)] items-start left-[calc(50%-0.5px)] overflow-clip rounded-[var(--radius\/medium,4px)] top-[calc(50%-0.5px)] translate-x-[-50%] translate-y-[-50%] w-[373px]" data-name="Warning modal" data-node-id="1048:12005">
+        <div className="content-stretch flex flex-col gap-[var(--spacing\/3x,24px)] items-start p-[var(--spacing\/2x,16px)] relative shrink-0 w-full" data-name="Contents" data-node-id="1048:12006">
+          <div className="content-stretch flex gap-[16px] items-center relative shrink-0 w-full" data-name="Heading + close" data-node-id="1048:12007">
+            <p className="flex-[1_0_0] font-['Saans:SemiBold',sans-serif] leading-[1.25] min-h-px min-w-px not-italic relative shrink-0 text-[18px] text-[color:var(--text-color\/primary,#212223)] tracking-[0.36px] whitespace-pre-wrap" data-node-id="1048:12008">
+              Upload to Atlas
+            </p>
+            <div className="relative shrink-0 size-[23px]" data-name="X" data-node-id="1048:12009">
+              <div className="absolute inset-1/4" data-name="Arm 2" data-node-id="I1048:12009;538:21">
+                <div className="absolute inset-[-6.25%]" style={{ "--stroke-0": "rgba(111, 113, 113, 1)" } as React.CSSProperties}>
+                  <img alt="" className="block max-w-none size-full" src={img16} />
+                </div>
+              </div>
+              <div className="absolute inset-1/4" data-name="Arm 1" data-node-id="I1048:12009;538:22">
+                <div className="absolute inset-[-6.25%]" style={{ "--stroke-0": "rgba(111, 113, 113, 1)" } as React.CSSProperties}>
+                  <img alt="" className="block max-w-none size-full" src={img17} />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="content-stretch flex items-start pl-0 pr-[var(--spacing\/0x,0px)] py-0 relative shrink-0 w-full" data-name="Padding-right" data-node-id="1048:12010">
+            <p className="flex-[1_0_0] font-['Saans:Regular',sans-serif] leading-[1.5] min-h-px min-w-px not-italic relative shrink-0 text-[16px] text-[color:var(--text-color\/primary,#212223)] tracking-[0.32px] whitespace-pre-wrap" data-node-id="1048:12011">{`Please don't upload files containing personal information, commercially sensitive or confidential data.`}</p>
+          </div>
+          <CheckboxLabel className="content-stretch flex gap-[var(--spacing\/1-5x,12px)] items-start relative shrink-0 w-full" label="By uploading, you confirm your files are appropriate to share." />
+        </div>
+        <div className="bg-[var(--bg-color\/primary,#ffffff)] content-stretch flex items-end justify-end p-[var(--spacing\/2x,16px)] relative rounded-bl-[var(--radius\/medium,4px)] rounded-br-[var(--radius\/medium,4px)] shrink-0 w-full" data-name="Bottom Modal Layer" data-node-id="1048:12020">
+          <div className="content-stretch flex gap-[16px] items-end justify-end relative shrink-0" data-name="Modal Button Group" data-node-id="1048:12021">
+            <div className="bg-[var(--bg-color\/action-secondary-base,#ffffff)] border-[0.5px] border-[var(--border-color\/action-tertiary-base,#dbdad6)] border-solid content-stretch flex gap-[var(--spacing\/1x,0px)] h-[32px] items-center justify-center px-[var(--spacing\/1-5x,12px)] py-[var(--spacing\/1x,8px)] relative rounded-[var(--rounded\/lg,8px)] shadow-[0px_1px_4px_0px_rgba(0,0,0,0.06)] shrink-0" data-name="Button" data-node-id="1048:12022">
+              <div className="flex flex-col font-['Saans:Medium',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[14px] text-[color:var(--text-color\/primary,#212223)] text-center tracking-[0.28px] whitespace-nowrap" data-node-id="I1048:12022;278:21568">
+                <p className="leading-[1.25]">Cancel</p>
+              </div>
+            </div>
+            <div className="bg-[var(--bg-color\/action-primary-base,#4a5ff7)] content-stretch flex gap-[var(--spacing\/1x,0px)] items-center justify-center px-[12px] py-[7px] relative rounded-[var(--rounded\/lg,8px)] shadow-[0px_1px_4px_0px_rgba(0,0,0,0.06)] shrink-0" data-name="Button" data-node-id="1048:12023">
+              <div className="flex flex-col font-['Saans:Medium',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[14px] text-[color:var(--text-color\/white,#ffffff)] text-center tracking-[0.28px] whitespace-nowrap" data-node-id="I1048:12023;278:22077">
+                <p className="leading-[1.25]">Confirm</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute content-stretch flex items-start justify-end left-[16.67%] right-0 top-[64px]" data-name="Content Container" data-node-id="1043:51897">
+        <div className="content-stretch flex flex-[1_0_0] flex-col gap-[var(--spacing\/5x,0px)] h-[746px] items-center min-h-px min-w-px px-[40px] py-0 relative shrink-0" data-name="Main Content" data-node-id="1043:51898">
+          <div className="content-stretch flex flex-col gap-[var(--spacing\/5x,40px)] h-[699px] items-start max-w-[720px] pb-[var(--spacing\/15x,120px)] pt-[var(--spacing\/3x,24px)] px-0 relative shrink-0 w-full" data-name="Content" data-node-id="1043:51899">
+            <div className="flex flex-col font-['Saans:Medium',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[14px] text-[color:var(--text-color\/secondary,#6f7171)] tracking-[0.28px] whitespace-nowrap" data-node-id="1043:51900">
+              <p className="leading-[1.25]">Hi Grace!</p>
+            </div>
+            <div className="bg-[var(--bg-color\/primary,#ffffff)] border-[0.5px] border-[var(--border-color\/action-tertiary-base,#dbdad6)] border-solid content-stretch flex items-center justify-center pl-[8px] pr-[24px] py-[8px] relative rounded-[var(--rounded\/lg,8px)] shadow-[0px_1px_4px_0px_rgba(0,0,0,0.06)] shrink-0 w-full" data-node-id="1043:51901">
+              <div className="content-stretch flex flex-[1_0_0] gap-[16px] items-center min-h-px min-w-px relative shrink-0" data-node-id="1043:51902">
+                <div className="bg-[var(--marketing-color\/dark-ultraviolet,#2b326d)] overflow-clip relative rounded-[var(--rounded\/lg,8px)] shrink-0 size-[56px]" data-name="Covers - Projects" data-node-id="1043:51903">
+                  <div className="absolute flex inset-[16.25%_11.25%_15%_10%] items-center justify-center">
+                    <div className="flex-none h-[63px] rotate-[90deg] w-[55px]">
+                      <div className="relative size-full" data-name="Shape" data-node-id="I1043:51903;15711:501">
+                        <img alt="" className="block max-w-none size-full" src={img18} />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="content-stretch flex flex-[1_0_0] flex-col items-start justify-center min-h-px min-w-px relative shrink-0" data-node-id="1043:51904">
+                  <div className="content-stretch flex gap-[4px] items-center relative shrink-0 w-full" data-node-id="1043:51905">
+                    <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-h-px min-w-px relative shrink-0" data-node-id="1043:51906">
+                      <div className="flex flex-col font-['Saans:Medium',sans-serif] h-[23px] justify-center leading-[0] not-italic relative shrink-0 text-[18px] text-[color:var(--text-color\/primary,#212223)] tracking-[0.36px] w-full" data-node-id="1043:51907">
+                        <p className="leading-[1.25] whitespace-pre-wrap">AI for Business Value</p>
+                      </div>
+                    </div>
+                    <div className="content-stretch flex gap-[8px] items-center relative shrink-0" data-node-id="1043:51908">
+                      <div className="overflow-clip relative shrink-0 size-[16px]" data-name="Clock" data-node-id="1043:51909">
+                        <div className="absolute inset-[8.33%]" data-name="Vector" data-node-id="I1043:51909;1061:21752">
+                          <div className="absolute inset-[-3.75%]" style={{ "--stroke-0": "rgba(33, 34, 35, 1)" } as React.CSSProperties}>
+                            <img alt="" className="block max-w-none size-full" src={img19} />
+                          </div>
+                        </div>
+                        <div className="absolute bottom-[41.67%] left-1/2 right-[33.33%] top-1/4" data-name="Vector" data-node-id="I1043:51909;1061:21753">
+                          <div className="absolute inset-[-9.37%_-18.75%_-9.38%_-18.75%]" style={{ "--stroke-0": "rgba(33, 34, 35, 1)" } as React.CSSProperties}>
+                            <img alt="" className="block max-w-none size-full" src={img20} />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="flex flex-col font-['Saans:Medium',sans-serif] justify-center leading-[0] not-italic overflow-ellipsis overflow-hidden relative shrink-0 text-[0px] text-[color:var(--text-color\/primary,#212223)] tracking-[0.24px] whitespace-nowrap" data-node-id="1043:51910">
+                        <p className="leading-[1.25] overflow-ellipsis overflow-hidden text-[12px]">
+                          7 days<span className="font-['Saans:Regular',sans-serif] not-italic tracking-[0.24px]">{` until launch`}</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid justify-items-start leading-[0] relative shrink-0 w-full" data-node-id="1043:51911">
+              <div className="col-[1] content-stretch flex items-center justify-between ml-0 mt-0 relative row-[1] w-[719.897px]" data-node-id="1043:51912">
+                <div className="flex flex-[1_0_0] flex-col font-['Saans:Medium',sans-serif] justify-center leading-[0] min-h-px min-w-px not-italic relative shrink-0 text-[20px] text-[color:var(--text-color\/primary,#212223)]" data-node-id="1043:51913">
+                  <p className="leading-[1.25] whitespace-pre-wrap">Upcoming</p>
+                </div>
+                <div className="bg-[var(--bg-color\/action-secondary-base,#ffffff)] border-[0.5px] border-[var(--border-color\/action-tertiary-base,#dbdad6)] border-solid content-stretch flex gap-[var(--spacing\/1x,0px)] h-[32px] items-center justify-center px-[var(--spacing\/1-5x,12px)] py-[var(--spacing\/1x,8px)] relative rounded-[var(--rounded\/lg,8px)] shadow-[0px_1px_4px_0px_rgba(0,0,0,0.06)] shrink-0 w-[74.064px]" data-name="Button" data-node-id="1043:51914">
+                  <div className="flex flex-col font-['Saans:Medium',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[14px] text-[color:var(--text-color\/primary,#212223)] text-center tracking-[0.28px] whitespace-nowrap" data-node-id="I1043:51914;278:21568">
+                    <p className="leading-[1.25]">View all</p>
+                  </div>
+                </div>
+              </div>
+              <div className="bg-[var(--color\/white,#ffffff)] border-[0.5px] border-[var(--border-color\/action-tertiary-base,#dbdad6)] border-solid col-[1] content-stretch flex items-center justify-between ml-0 mt-[48px] overflow-clip pl-[var(--spacing\/1x,8px)] pr-[var(--spacing\/3x,24px)] py-[var(--spacing\/1x,8px)] relative rounded-[8px] row-[1] shadow-[0px_1px_4px_0px_rgba(0,0,0,0.06)] w-[720px]" data-name="Live event" data-node-id="1043:51915">
+                <div className="content-stretch flex gap-[var(--spacing\/2x,16px)] items-start relative shrink-0" data-name="Left" data-node-id="1043:51916">
+                  <div className="bg-[var(--color\/brand\/50,#f5f7ff)] content-stretch flex flex-col font-['Saans:SemiBold',sans-serif] items-center justify-center leading-[1.25] not-italic pb-[1.583px] pt-0 px-0 relative rounded-[var(--radius\/medium,4px)] shrink-0 size-[56px] text-center whitespace-pre-wrap" data-name="Date" data-node-id="1043:51917">
+                    <p className="relative shrink-0 text-[12px] text-[color:var(--bg-color\/action-primary-base,#4a5ff7)] tracking-[0.24px] w-full" data-node-id="1043:51918">
+                      Jan
+                    </p>
+                    <p className="relative shrink-0 text-[18px] text-[color:var(--text-color\/primary,#212223)] tracking-[0.36px] w-full" data-node-id="1043:51919">
+                      7
+                    </p>
+                  </div>
+                  <div className="content-stretch flex flex-col font-['Saans:Medium',sans-serif] gap-[var(--spacing\/0-5x,4px)] items-start justify-center leading-[1.25] not-italic relative self-stretch shrink-0" data-name="Container" data-node-id="1043:51920">
+                    <p className="relative shrink-0 text-[16px] text-[color:var(--text-color\/primary,#212223)] tracking-[0.32px]" data-node-id="1043:51921">
+                      Flying start (group 206)
+                    </p>
+                    <p className="relative shrink-0 text-[14px] text-[color:var(--text-color\/secondary,#6f7171)] tracking-[0.28px]" data-node-id="1043:51922">
+                      12:30 CET · 30min session
+                    </p>
+                  </div>
+                </div>
+                <div className="content-stretch flex flex-[1_0_0] items-center justify-end min-h-px min-w-px relative shrink-0" data-node-id="1043:51923">
+                  <div className="content-stretch flex gap-[var(--spacing\/1x,0px)] items-center justify-center relative shrink-0" data-name="Details" data-node-id="1043:51924">
+                    <div className="content-stretch flex gap-[var(--spacing\/0-5x,4px)] items-center relative shrink-0" data-name="Host" data-node-id="1043:51925">
+                      <div className="flex flex-col font-['Saans:Medium',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[14px] text-[color:var(--text-color\/secondary,#6f7171)] text-center tracking-[0.28px] whitespace-nowrap" data-node-id="1043:51926">
+                        <p className="leading-[16px]">{`Hosted by `}</p>
+                      </div>
+                      <ProfileChip className="bg-red-200 relative rounded-[var(--rounded\/full,999px)] shrink-0 size-[24px]" initials="OP" variation="11" />
+                      <div className="flex flex-col font-['Saans:Medium',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[14px] text-[color:var(--text-color\/secondary,#6f7171)] text-center tracking-[0.28px] whitespace-nowrap" data-node-id="1043:51928">
+                        <p className="leading-[16px]">Oliver Patel</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="content-stretch flex flex-col gap-[24px] items-start pb-[var(--spacing\/15x,120px)] pt-0 px-0 relative shrink-0 w-full" data-node-id="1043:51929">
+              <div className="content-stretch flex items-start relative shrink-0 w-full" data-node-id="1043:51930">
+                <div className="content-stretch flex flex-[1_0_0] flex-col gap-[8px] items-start min-h-px min-w-px relative shrink-0" data-node-id="1043:51931">
+                  <div className="content-stretch flex gap-[8px] items-start relative shrink-0" data-node-id="1043:51932">
+                    <div className="flex flex-col font-['Saans:Medium',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[20px] text-[color:var(--text-color\/primary,#212223)] whitespace-nowrap" data-node-id="1043:51933">
+                      <p className="leading-[1.25]">Tasks</p>
+                    </div>
+                    <div className="bg-[var(--bg-color\/action,#e7eafe)] content-stretch flex gap-[var(--spacing\/0-5x,0px)] h-[24px] items-center justify-center max-w-[200px] min-h-[24px] min-w-[24px] overflow-clip p-[var(--spacing\/0-5x,4px)] relative rounded-[var(--rounded\/md,6px)] shrink-0" data-name="Badge" data-node-id="1043:51934">
+                      <div className="flex flex-[1_0_0] flex-col font-['Saans:Medium',sans-serif] justify-center leading-[0] min-h-px min-w-px not-italic overflow-ellipsis overflow-hidden relative shrink-0 text-[12px] text-[color:var(--text-color\/action-base,#4a5ff7)] text-center tracking-[0.24px] whitespace-nowrap" data-node-id="I1043:51934;9732:5875">
+                        <p className="leading-[1.25] overflow-ellipsis overflow-hidden">3</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="bg-[var(--bg-color\/warning,#fff7d4)] content-stretch flex flex-col gap-[var(--spacing\/1x,0px)] items-start overflow-clip p-[var(--spacing\/2x,16px)] relative rounded-[var(--rounded\/lg,8px)] shrink-0 w-full" data-name="Callout" data-node-id="1043:51935">
+                    <div className="content-stretch flex gap-[var(--spacing\/1-5x,12px)] items-start p-[var(--spacing\/0x,0px)] relative shrink-0 w-full" data-name="_Content" data-node-id="I1043:51935;4016:7394">
+                      <div className="content-stretch flex items-start px-0 py-[4px] relative shrink-0" data-name="Icon area" data-node-id="I1043:51935;4016:7394;4016:6920">
+                        <div className="overflow-clip relative shrink-0 size-[16px]" data-name="Icon" data-node-id="I1043:51935;4016:7394;4016:6921">
+                          <div className="absolute bottom-[18.75%] left-[48.44%] right-1/2 top-[78.13%]" data-name="Vector" data-node-id="I1043:51935;4016:7394;4016:6921;1061:22154">
+                            <div className="absolute inset-[-100%_-100%_-100%_-200%]" style={{ "--stroke-0": "rgba(79, 54, 21, 1)" } as React.CSSProperties}>
+                              <img alt="" className="block max-w-none size-full" src={img21} />
+                            </div>
+                          </div>
+                          <div className="absolute bottom-[18.75%] left-1/2 right-[48.44%] top-[78.13%]" data-name="Vector" data-node-id="I1043:51935;4016:7394;4016:6921;1061:22155">
+                            <div className="absolute inset-[-100%_-200%_-100%_-100%]" style={{ "--stroke-0": "rgba(79, 54, 21, 1)" } as React.CSSProperties}>
+                              <img alt="" className="block max-w-none size-full" src={img22} />
+                            </div>
+                          </div>
+                          <div className="absolute bottom-[34.38%] left-1/2 right-1/2 top-[34.38%]" data-name="Vector" data-node-id="I1043:51935;4016:7394;4016:6921;1061:22156">
+                            <div className="absolute inset-[-10%_-0.5px]" style={{ "--stroke-0": "rgba(79, 54, 21, 1)" } as React.CSSProperties}>
+                              <img alt="" className="block max-w-none size-full" src={img23} />
+                            </div>
+                          </div>
+                          <div className="absolute inset-[3.13%_3.12%_3.12%_3.12%]" data-name="Vector" data-node-id="I1043:51935;4016:7394;4016:6921;1061:22157">
+                            <div className="absolute inset-[-3.33%]" style={{ "--stroke-0": "rgba(79, 54, 21, 1)" } as React.CSSProperties}>
+                              <img alt="" className="block max-w-none size-full" src={img24} />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="content-stretch flex flex-[1_0_0] flex-col gap-[var(--spacing\/2x,16px)] items-start min-h-px min-w-px relative shrink-0" data-name="Container" data-node-id="I1043:51935;4016:7394;4016:6922">
+                        <div className="content-stretch flex flex-col gap-[var(--spacing\/0-5x,4px)] items-start relative shrink-0 w-full" data-name="Container" data-node-id="I1043:51935;4016:7394;4016:7017">
+                          <p className="font-['Saans:Regular',sans-serif] leading-[1.5] max-w-[640px] not-italic relative shrink-0 text-[16px] text-[color:var(--text-color\/warning-dark,#4f3615)] tracking-[0.32px] w-full whitespace-pre-wrap" data-node-id="I1043:51935;4016:7394;4016:7005">
+                            Complete these tasks before the Flying start
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="bg-white border-[0.5px] border-[var(--border-color\/action-tertiary-base,#dbdad6)] border-solid content-stretch flex gap-[16px] items-start p-[16px] relative rounded-[8px] shadow-[0px_1px_4px_0px_rgba(0,0,0,0.06)] shrink-0 w-full" data-name="Task" data-node-id="1043:51936">
+                <div className="content-stretch flex flex-[1_0_0] flex-col gap-[8px] items-start min-h-px min-w-px not-italic relative self-stretch shrink-0" data-name="Action + Description" data-node-id="I1043:51936;11:16521">
+                  <div className="flex flex-col font-['Saans:Medium',sans-serif] justify-center leading-[0] overflow-ellipsis overflow-hidden relative shrink-0 text-[0px] text-[color:var(--text-color\/primary,#212223)] tracking-[0.32px] w-full whitespace-nowrap" data-node-id="I1043:51936;11:16522">
+                    <p className="leading-[1.25] not-italic overflow-ellipsis overflow-hidden text-[16px]">
+                      Complete induction form<span className="text-[#6f7171]">{` (15 min)`}</span>
+                    </p>
+                  </div>
+                  <p className="font-['Saans:Regular',sans-serif] leading-[1.25] max-w-[640px] relative shrink-0 text-[14px] text-[color:var(--text-color\/secondary,#6f7171)] tracking-[0.28px] w-full whitespace-pre-wrap" data-node-id="I1043:51936;11:16523">
+                    Tell us how we can support you
+                  </p>
+                </div>
+                <div className="content-stretch flex gap-[8px] items-start relative shrink-0" data-node-id="I1043:51936;11:16524">
+                  <div className="bg-[var(--bg-color\/warning,#fff7d4)] content-stretch flex flex-col h-[24px] items-start overflow-clip px-[var(--spacing\/1x,8px)] py-[var(--spacing\/0-5x,4px)] relative rounded-[var(--radius\/medium,4px)] shrink-0" data-name="Badge" data-node-id="I1043:51936;11:16525">
+                    <div className="content-stretch flex gap-[var(--spacing\/1x,8px)] items-start relative shrink-0" data-name="Badge Icon and Label" data-node-id="I1043:51936;11:16525;352:25840">
+                      <div className="overflow-clip relative shrink-0 size-[16px]" data-name="Clock" data-node-id="I1043:51936;11:16525;352:25841">
+                        <div className="absolute inset-[8.33%]" data-name="Vector" data-node-id="I1043:51936;11:16525;352:25841;1061:21752">
+                          <div className="absolute inset-[-3.75%]" style={{ "--stroke-0": "rgba(79, 54, 21, 1)" } as React.CSSProperties}>
+                            <img alt="" className="block max-w-none size-full" src={img25} />
+                          </div>
+                        </div>
+                        <div className="absolute bottom-[41.67%] left-1/2 right-[33.33%] top-1/4" data-name="Vector" data-node-id="I1043:51936;11:16525;352:25841;1061:21753">
+                          <div className="absolute inset-[-9.37%_-18.75%_-9.38%_-18.75%]" style={{ "--stroke-0": "rgba(79, 54, 21, 1)" } as React.CSSProperties}>
+                            <img alt="" className="block max-w-none size-full" src={img26} />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="flex flex-col font-['Saans:SemiBold',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[12px] text-[color:var(--text-color\/warning-dark,#2e1f0d)] text-center tracking-[0.24px] whitespace-nowrap" data-node-id="I1043:51936;11:16525;352:25842">
+                        <p className="leading-[1.25]">Due 7th Jan</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="bg-white border-[0.5px] border-[var(--border-color\/action-tertiary-base,#dbdad6)] border-solid content-stretch flex gap-[16px] items-start p-[16px] relative rounded-[8px] shadow-[0px_1px_4px_0px_rgba(0,0,0,0.06)] shrink-0 w-full" data-name="Task" data-node-id="1043:51937">
+                <div className="content-stretch flex flex-[1_0_0] flex-col gap-[8px] items-start min-h-px min-w-px not-italic relative self-stretch shrink-0" data-name="Action + Description" data-node-id="I1043:51937;11:16521">
+                  <div className="flex flex-col font-['Saans:Medium',sans-serif] justify-center leading-[0] overflow-ellipsis overflow-hidden relative shrink-0 text-[0px] text-[color:var(--text-color\/primary,#212223)] tracking-[0.32px] w-full whitespace-nowrap" data-node-id="I1043:51937;11:16522">
+                    <p className="leading-[1.25] overflow-ellipsis overflow-hidden text-[16px]">
+                      <span className="font-['Saans:Medium',sans-serif] not-italic tracking-[0.32px]">Review and</span>
+                      <span>{` sign T`}</span>
+                      <span className="font-['Saans:Medium',sans-serif] not-italic tracking-[0.32px]">{`raining Plan `}</span>
+                      <span className="font-['Saans:Medium',sans-serif] not-italic text-[#6f7171] tracking-[0.32px]">(15 min)</span>
+                    </p>
+                  </div>
+                  <p className="font-['Saans:Regular',sans-serif] leading-[1.25] max-w-[640px] relative shrink-0 text-[14px] text-[color:var(--text-color\/secondary,#6f7171)] tracking-[0.28px] w-full whitespace-pre-wrap" data-node-id="I1043:51937;11:16523">
+                    You and your manager will have received an email with a link to your training plan.
+                  </p>
+                </div>
+                <div className="content-stretch flex gap-[8px] items-start relative shrink-0" data-node-id="I1043:51937;11:16524">
+                  <div className="bg-[var(--bg-color\/warning,#fff7d4)] content-stretch flex flex-col h-[24px] items-start overflow-clip px-[var(--spacing\/1x,8px)] py-[var(--spacing\/0-5x,4px)] relative rounded-[var(--radius\/medium,4px)] shrink-0" data-name="Badge" data-node-id="I1043:51937;11:16525">
+                    <div className="content-stretch flex gap-[var(--spacing\/1x,8px)] items-start relative shrink-0" data-name="Badge Icon and Label" data-node-id="I1043:51937;11:16525;352:25840">
+                      <div className="overflow-clip relative shrink-0 size-[16px]" data-name="Clock" data-node-id="I1043:51937;11:16525;352:25841">
+                        <div className="absolute inset-[8.33%]" data-name="Vector" data-node-id="I1043:51937;11:16525;352:25841;1061:21752">
+                          <div className="absolute inset-[-3.75%]" style={{ "--stroke-0": "rgba(79, 54, 21, 1)" } as React.CSSProperties}>
+                            <img alt="" className="block max-w-none size-full" src={img25} />
+                          </div>
+                        </div>
+                        <div className="absolute bottom-[41.67%] left-1/2 right-[33.33%] top-1/4" data-name="Vector" data-node-id="I1043:51937;11:16525;352:25841;1061:21753">
+                          <div className="absolute inset-[-9.37%_-18.75%_-9.38%_-18.75%]" style={{ "--stroke-0": "rgba(79, 54, 21, 1)" } as React.CSSProperties}>
+                            <img alt="" className="block max-w-none size-full" src={img26} />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="flex flex-col font-['Saans:SemiBold',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[12px] text-[color:var(--text-color\/warning-dark,#2e1f0d)] text-center tracking-[0.24px] whitespace-nowrap" data-node-id="I1043:51937;11:16525;352:25842">
+                        <p className="leading-[1.25]">Due 7th Jan</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="bg-white border-[0.5px] border-[var(--border-color\/action-tertiary-base,#dbdad6)] border-solid content-stretch flex gap-[16px] items-start p-[16px] relative rounded-[8px] shadow-[0px_1px_4px_0px_rgba(0,0,0,0.06)] shrink-0 w-full" data-name="Task" data-node-id="1043:51938">
+                <div className="content-stretch flex flex-[1_0_0] flex-col gap-[8px] items-start min-h-px min-w-px not-italic relative self-stretch shrink-0" data-name="Action + Description" data-node-id="I1043:51938;11:16521">
+                  <div className="flex flex-col font-['Saans:Medium',sans-serif] justify-center leading-[0] overflow-ellipsis overflow-hidden relative shrink-0 text-[0px] text-[color:var(--text-color\/primary,#212223)] tracking-[0.32px] w-full whitespace-nowrap" data-node-id="I1043:51938;11:16522">
+                    <p className="leading-[1.25] overflow-ellipsis overflow-hidden text-[16px]">
+                      <span className="font-['Saans:Medium',sans-serif] not-italic tracking-[0.32px]">{`Complete `}</span>onboarding module
+                    </p>
+                  </div>
+                  <p className="font-['Saans:Regular',sans-serif] leading-[1.25] max-w-[640px] relative shrink-0 text-[14px] text-[color:var(--text-color\/secondary,#6f7171)] tracking-[0.28px] w-full whitespace-pre-wrap" data-node-id="I1043:51938;11:16523">{`See what you'll learn and how the apprenticeship works`}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="h-[746px] relative shrink-0 w-[400px]" data-name="Atlas Panel Variations" data-node-id="1043:51939">
+          <div className="absolute bg-white border-[var(--border-color\/separator-primary,#edebe8)] border-b-0 border-l border-r-0 border-solid border-t-0 content-stretch flex flex-col inset-0 items-start" data-name="Atlas Panel" data-node-id="I1043:51939;1043:9958">
+            <div className="content-stretch flex flex-[1_0_0] flex-col gap-[var(--spacing\/3x,24px)] items-start justify-end min-h-px min-w-px overflow-clip p-[var(--spacing\/2x,16px)] relative shrink-0 w-full" data-name="Chat Content" data-node-id="I1043:51939;1043:9958;1011:41328">
+              <div className="content-stretch flex gap-[var(--spacing\/1x,0px)] items-end justify-end relative shrink-0 w-[368px]" data-name="User Message" data-node-id="I1043:51939;1043:9958;1011:42646">
+                <div className="content-stretch flex flex-col gap-[var(--spacing\/0-5x,4px)] items-end relative shrink-0" data-name="Padding-bottom" data-node-id="I1043:51939;1043:9958;1011:42646;1011:42513">
+                  <div className="bg-[var(--marketing-color\/starlight,#e7eafe)] content-stretch flex items-center justify-center p-[12px] relative rounded-bl-[var(--rounded\/lg,8px)] rounded-br-[var(--rounded\/sm,2px)] rounded-tl-[var(--rounded\/lg,8px)] rounded-tr-[var(--rounded\/lg,8px)] shrink-0" data-name="Text" data-node-id="I1043:51939;1043:9958;1011:42646;1011:42514">
+                    <p className="font-['Saans:Regular',sans-serif] leading-[1.5] max-w-[312px] not-italic relative shrink-0 text-[14px] text-[color:var(--text-color\/primary,#212223)] tracking-[0.28px]" data-node-id="I1043:51939;1043:9958;1011:42646;1011:42515">
+                      Tell me what you can do for me
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="content-stretch flex flex-col gap-[16px] items-start relative shrink-0" data-name="Atlas Message" data-node-id="I1043:51939;1043:9958;1011:42651">
+                <div className="content-stretch flex flex-col gap-[18px] items-start relative shrink-0 w-[368px]" data-name="Copy block" data-node-id="I1043:51939;1043:9958;1011:42651;1011:42483">
+                  <p className="font-['Saans:Regular',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[14px] text-[color:var(--text-color\/primary,#212223)] tracking-[0.28px] w-full whitespace-pre-wrap" data-node-id="I1043:51939;1043:9958;1011:42651;1011:42483;1011:42275">
+                    I can support you in a number of ways throughout your apprenticeship and in your Business Administrator role at Launch Company (UK):
+                  </p>
+                </div>
+                <div className="content-stretch flex flex-col gap-[18px] items-start not-italic relative shrink-0 text-[color:var(--text-color\/primary,#212223)] w-[368px] whitespace-pre-wrap" data-name="Copy block" data-node-id="I1043:51939;1043:9958;1011:42651;1011:42491">
+                  <p className="font-['Saans:SemiBold',sans-serif] leading-[1.25] relative shrink-0 text-[16px] tracking-[0.32px] w-full" data-node-id="I1043:51939;1043:9958;1011:42651;1011:42491;1011:42274">
+                    1. Learning Guidance
+                  </p>
+                  <p className="font-['Saans:Regular',sans-serif] leading-[1.5] relative shrink-0 text-[14px] tracking-[0.28px] w-full" data-node-id="I1043:51939;1043:9958;1011:42651;1011:42491;1011:42275">
+                    I can help you understand concepts and develop the knowledge, skills, and behaviours required for your programme. I’ll use questions to guide your thinking and help you reflect, so you build genuine understanding. I can also quiz you on topics, help you structure your study time, and offer strategies for learning.
+                  </p>
+                </div>
+                <div className="content-stretch flex flex-col gap-[18px] items-start not-italic relative shrink-0 text-[color:var(--text-color\/primary,#212223)] w-[368px] whitespace-pre-wrap" data-name="Copy block" data-node-id="I1043:51939;1043:9958;1011:42651;1011:42498">
+                  <p className="font-['Saans:SemiBold',sans-serif] leading-[1.25] relative shrink-0 text-[16px] tracking-[0.32px] w-full" data-node-id="I1043:51939;1043:9958;1011:42651;1011:42498;1011:42274">
+                    2. Project Support
+                  </p>
+                  <p className="font-['Saans:Regular',sans-serif] leading-[1.5] relative shrink-0 text-[14px] tracking-[0.28px] w-full" data-node-id="I1043:51939;1043:9958;1011:42651;1011:42498;1011:42275">
+                    If you’re working on projects or assignments, I can guide your approach, help you break down tasks, and discuss ways to apply your learning to real workplace challenges. For specific project guidance, please ask me on the project page for the best support.
+                  </p>
+                </div>
+                <div className="content-stretch flex flex-col gap-[18px] items-start not-italic relative shrink-0 text-[color:var(--text-color\/primary,#212223)] w-[368px] whitespace-pre-wrap" data-name="Copy block" data-node-id="I1043:51939;1043:9958;1011:42651;1011:42505">
+                  <p className="font-['Saans:SemiBold',sans-serif] leading-[1.25] relative shrink-0 text-[16px] tracking-[0.32px] w-full" data-node-id="I1043:51939;1043:9958;1011:42651;1011:42505;1011:42274">
+                    3. Career Development
+                  </p>
+                  <p className="font-['Saans:Regular',sans-serif] leading-[1.5] relative shrink-0 text-[14px] tracking-[0.28px] w-full" data-node-id="I1043:51939;1043:9958;1011:42651;1011:42505;1011:42275">
+                    I can help you explore how your apprenticeship can benefit your current role and your long-term goals. If you’re looking for advice on skill-building, professional behaviours, or career growth, I’ll help you reflect and plan next steps.
+                  </p>
+                </div>
+                <div className="content-stretch flex flex-col gap-[18px] items-start not-italic relative shrink-0 text-[color:var(--text-color\/primary,#212223)] w-[368px] whitespace-pre-wrap" data-name="Copy block" data-node-id="I1043:51939;1043:9958;1011:42651;1043:27881">
+                  <p className="font-['Saans:SemiBold',sans-serif] leading-[1.25] relative shrink-0 text-[16px] tracking-[0.32px] w-full" data-node-id="I1043:51939;1043:9958;1011:42651;1043:27881;1011:42274">
+                    4. Platform and Process Support
+                  </p>
+                  <p className="font-['Saans:Regular',sans-serif] leading-[1.5] relative shrink-0 text-[14px] tracking-[0.28px] w-full" data-node-id="I1043:51939;1043:9958;1011:42651;1043:27881;1011:42275">
+                    If you ever have practical questions (e.g., navigating the platform, submitting assignments, understanding deadlines/policies), I’ll provide direct, clear instructions so you can keep moving forward smoothly.
+                  </p>
+                </div>
+                <div className="content-stretch flex flex-col gap-[18px] items-start not-italic relative shrink-0 text-[color:var(--text-color\/primary,#212223)] w-[368px] whitespace-pre-wrap" data-name="Copy block" data-node-id="I1043:51939;1043:9958;1011:42651;1043:27895">
+                  <p className="font-['Saans:SemiBold',sans-serif] leading-[1.25] relative shrink-0 text-[16px] tracking-[0.32px] w-full" data-node-id="I1043:51939;1043:9958;1011:42651;1043:27895;1011:42274">
+                    5. Professional Challenges
+                  </p>
+                  <p className="font-['Saans:Regular',sans-serif] leading-[1.5] relative shrink-0 text-[14px] tracking-[0.28px] w-full" data-node-id="I1043:51939;1043:9958;1011:42651;1043:27895;1011:42275">
+                    If you face challenges in your job or learning—like time management, communication, or balancing work and study—I can offer practical strategies and guide you to reflect on effective solutions.
+                  </p>
+                </div>
+                <div className="content-stretch flex flex-col gap-[18px] items-start relative shrink-0 w-[368px]" data-name="Copy block" data-node-id="I1043:51939;1043:9958;1011:42651;1043:27909">
+                  <p className="font-['Saans:Regular',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[14px] text-[color:var(--text-color\/primary,#212223)] tracking-[0.28px] w-full whitespace-pre-wrap" data-node-id="I1043:51939;1043:9958;1011:42651;1043:27909;1011:42275">{`How would you like to get started, Tyrel? Is there a specific area you'd like support with today?`}</p>
+                </div>
+                <MessageActions className="content-stretch flex gap-[4px] items-center relative shrink-0" />
+              </div>
+            </div>
+            <div className="content-stretch flex flex-col items-start p-[16px] relative shrink-0 w-full" data-name="Input Container" data-node-id="I1043:51939;1043:9958;1011:41337">
+              <div className="bg-[var(--bg-color\/input,#ffffff)] border border-[var(--border-color\/action-tertiary-base,#dbdad6)] border-solid content-stretch flex flex-col items-start overflow-clip p-[var(--spacing\/1x,8px)] relative rounded-[var(--rounded\/2xl,16px)] shrink-0 w-full" data-name="Atlas Input" data-node-id="I1043:51939;1043:9958;1011:42550">
+                <div className="content-stretch flex items-center px-[var(--spacing\/0-5x,4px)] py-[var(--spacing\/1x,8px)] relative shrink-0 w-full" data-name="Text" data-node-id="I1043:51939;1043:9958;1011:42550;1011:41186">
+                  <div className="flex flex-[1_0_0] flex-col font-['Saans:Regular',sans-serif] h-[22px] justify-center leading-[0] min-h-px min-w-px not-italic relative shrink-0 text-[14px] text-[color:var(--text-color\/secondary,#6f7171)] tracking-[0.28px]" data-node-id="I1043:51939;1043:9958;1011:42550;1011:41187">
+                    <p className="leading-[1.25] whitespace-pre-wrap">Ask me anything...</p>
+                  </div>
+                </div>
+                <div className="content-stretch flex items-start justify-between relative shrink-0 w-full" data-name="Actions" data-node-id="I1043:51939;1043:9958;1011:42550;1011:41188">
+                  <div className="relative shrink-0 size-[32px]" data-name="Attachment" data-node-id="I1043:51939;1043:9958;1011:42550;1043:51181">
+                    <div className="absolute content-stretch flex h-[var(--spacing\/4x,32px)] items-center justify-center left-1/2 p-[var(--spacing\/1x,8px)] rounded-[var(--rounded\/lg,8px)] shadow-[0px_1px_4px_0px_rgba(0,0,0,0.06)] top-1/2 translate-x-[-50%] translate-y-[-50%]" data-name="Button" data-node-id="I1043:51939;1043:9958;1011:42550;1043:51181;1048:10977">
+                      <div className="overflow-clip relative shrink-0 size-[16px]" data-name="Icon" data-node-id="I1043:51939;1043:9958;1011:42550;1043:51181;1048:10977;718:40781">
+                        <div className="absolute bottom-1/2 left-1/4 right-1/4 top-1/2" data-name="Vector" data-node-id="I1043:51939;1043:9958;1011:42550;1043:51181;1048:10977;718:40781;1061:20365">
+                          <div className="absolute inset-[-0.5px_-6.25%]" style={{ "--stroke-0": "rgba(111, 113, 113, 1)" } as React.CSSProperties}>
+                            <img alt="" className="block max-w-none size-full" src={img27} />
+                          </div>
+                        </div>
+                        <div className="absolute bottom-1/4 left-1/2 right-1/2 top-1/4" data-name="Vector" data-node-id="I1043:51939;1043:9958;1011:42550;1043:51181;1048:10977;718:40781;1061:20366">
+                          <div className="absolute inset-[-6.25%_-0.5px]" style={{ "--stroke-0": "rgba(111, 113, 113, 1)" } as React.CSSProperties}>
+                            <img alt="" className="block max-w-none size-full" src={img28} />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="bg-[var(--bg-color\/action-primary-base,#4a5ff7)] content-stretch flex items-center justify-center opacity-[0.64] p-[var(--spacing\/1x,8px)] relative rounded-[var(--rounded\/lg,8px)] shadow-[0px_1px_4px_0px_rgba(0,0,0,0.06)] shrink-0" data-name="Button" data-node-id="I1043:51939;1043:9958;1011:42550;1043:49951">
+                    <div className="overflow-clip relative shrink-0 size-[16px]" data-name="Icon" data-node-id="I1043:51939;1043:9958;1011:42550;1043:49951;278:23507">
+                      <div className="absolute bottom-1/4 left-1/2 right-1/2 top-1/4" data-name="Vector" data-node-id="I1043:51939;1043:9958;1011:42550;1043:49951;278:23507;1061:22068">
+                        <div className="absolute inset-[-6.25%_-0.5px]" style={{ "--stroke-0": "rgba(255, 255, 255, 1)" } as React.CSSProperties}>
+                          <img alt="" className="block max-w-none size-full" src={img29} />
+                        </div>
+                      </div>
+                      <div className="absolute bottom-1/2 left-1/4 right-1/4 top-1/4" data-name="Vector" data-node-id="I1043:51939;1043:9958;1011:42550;1043:49951;278:23507;1061:22069">
+                        <div className="absolute inset-[-12.5%_-6.25%]" style={{ "--stroke-0": "rgba(255, 255, 255, 1)" } as React.CSSProperties}>
+                          <img alt="" className="block max-w-none size-full" src={img30} />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="absolute bg-gradient-to-b content-stretch flex from-[79.687%] from-[var(--bg-color\/primary,#ffffff)] gap-[var(--spacing\/1x,0px)] h-[64px] items-center left-1/2 p-[var(--spacing\/2x,16px)] to-[rgba(255,255,255,0)] top-0 translate-x-[-50%] w-[400px]" data-name="Slide-in Nav v1" data-node-id="I1043:51939;1043:9958;1011:42563">
+              <div className="content-stretch flex flex-[1_0_0] items-center justify-between min-h-px min-w-px relative shrink-0" data-name="Container" data-node-id="I1043:51939;1043:9958;1011:42563;1011:41263">
+                <div className="content-stretch flex gap-[var(--spacing\/1x,8px)] items-center relative shrink-0" data-name="Chat Dropdown" data-node-id="I1043:51939;1043:9958;1011:42563;1011:41264">
+                  <AtlasIcon className="h-[26.934px] relative shrink-0 w-[28px]" />
+                  <div className="flex flex-col font-['Saans:Medium',sans-serif] justify-center leading-[0] not-italic overflow-ellipsis overflow-hidden relative shrink-0 text-[13.249px] text-[color:var(--text-color\/primary,#212223)] tracking-[0.265px] whitespace-nowrap" data-node-id="I1043:51939;1043:9958;1011:42563;1011:41272">
+                    <p className="leading-[1.5] overflow-ellipsis overflow-hidden">Tell me what you can do for me</p>
+                  </div>
+                  <div className="overflow-clip relative shrink-0 size-[16px]" data-name="Icon" data-node-id="I1043:51939;1043:9958;1011:42563;1011:41273">
+                    <div className="absolute bottom-[37.5%] left-1/2 top-[37.5%] translate-x-[-50%] w-[8px]" data-name="Vector" data-node-id="I1043:51939;1043:9958;1011:42563;1011:41273;1061:21785">
+                      <div className="absolute inset-[-12.5%_-6.25%]" style={{ "--stroke-0": "rgba(33, 34, 35, 1)" } as React.CSSProperties}>
+                        <img alt="" className="block max-w-none size-full" src={img31} />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="flex flex-row items-center self-stretch">
+                  <div className="content-stretch flex gap-[var(--spacing\/0-5x,4px)] h-full items-center relative shrink-0" data-name="Button Group - Atlas" data-node-id="I1043:51939;1043:9958;1011:42563;1011:41274">
+                    <div className="bg-[var(--bg-color\/action-primary-base,#4a5ff7)] content-stretch flex items-center justify-center p-[4px] relative rounded-[var(--rounded\/md,6px)] shadow-[0px_1px_4px_0px_rgba(0,0,0,0.06)] shrink-0 size-[32px]" data-name="Button" data-node-id="I1043:51939;1043:9958;1011:42563;1011:41275">
+                      <div className="overflow-clip relative shrink-0 size-[16px]" data-name="Icon" data-node-id="I1043:51939;1043:9958;1011:42563;1011:41275;291:23148">
+                        <div className="absolute bottom-1/2 left-1/4 right-1/4 top-1/2" data-name="Vector" data-node-id="I1043:51939;1043:9958;1011:42563;1011:41275;291:23148;1061:20365">
+                          <div className="absolute inset-[-0.5px_-6.25%]" style={{ "--stroke-0": "rgba(255, 255, 255, 1)" } as React.CSSProperties}>
+                            <img alt="" className="block max-w-none size-full" src={img32} />
+                          </div>
+                        </div>
+                        <div className="absolute bottom-1/4 left-1/2 right-1/2 top-1/4" data-name="Vector" data-node-id="I1043:51939;1043:9958;1011:42563;1011:41275;291:23148;1061:20366">
+                          <div className="absolute inset-[-6.25%_-0.5px]" style={{ "--stroke-0": "rgba(255, 255, 255, 1)" } as React.CSSProperties}>
+                            <img alt="" className="block max-w-none size-full" src={img33} />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="bg-[var(--bg-color\/action-secondary-base,#ffffff)] border-[0.5px] border-[var(--border-color\/action-tertiary-base,#dbdad6)] border-solid content-stretch flex h-[32px] items-center justify-center p-[var(--spacing\/1x,8px)] relative rounded-bl-[8px] rounded-br-[8px] rounded-tl-[8px] rounded-tr-[var(--rounded\/lg,8px)] shadow-[0px_1px_4px_0px_rgba(0,0,0,0.06)] shrink-0" data-name="Button" data-node-id="I1043:51939;1043:9958;1011:42563;1011:41276">
+                      <div className="overflow-clip relative shrink-0 size-[16px]" data-name="Icon" data-node-id="I1043:51939;1043:9958;1011:42563;1011:41276;278:21695">
+                        <div className="absolute flex inset-0 items-center justify-center">
+                          <div className="flex-none rotate-[90deg] size-[16px]">
+                            <div className="relative size-full" data-name="Dots" data-node-id="I1043:51939;1043:9958;1011:42563;1011:41276;278:21695;1061:19529">
+                              <img alt="" className="block max-w-none size-full" src={img34} />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="bg-[var(--bg-color\/action-secondary-base,#ffffff)] border-[0.5px] border-[var(--border-color\/action-tertiary-base,#dbdad6)] border-solid content-stretch flex h-[32px] items-center justify-center p-[var(--spacing\/1x,8px)] relative rounded-bl-[8px] rounded-br-[8px] rounded-tl-[8px] rounded-tr-[var(--rounded\/lg,8px)] shadow-[0px_1px_4px_0px_rgba(0,0,0,0.06)] shrink-0" data-name="Button" data-node-id="I1043:51939;1043:9958;1011:42563;1011:41277">
+                      <div className="overflow-clip relative shrink-0 size-[16px]" data-name="Icon" data-node-id="I1043:51939;1043:9958;1011:42563;1011:41277;278:21695">
+                        <div className="absolute bottom-1/4 left-1/2 right-1/4 top-1/4" data-name="Vector" data-node-id="I1043:51939;1043:9958;1011:42563;1011:41277;278:21695;1061:21592">
+                          <div className="absolute inset-[-6.25%_-12.5%]" style={{ "--stroke-0": "rgba(33, 34, 35, 1)" } as React.CSSProperties}>
+                            <img alt="" className="block max-w-none size-full" src={img35} />
+                          </div>
+                        </div>
+                        <div className="absolute bottom-1/4 left-1/4 right-1/2 top-1/4" data-name="Vector" data-node-id="I1043:51939;1043:9958;1011:42563;1011:41277;278:21695;1061:21593">
+                          <div className="absolute inset-[-6.25%_-12.5%]" style={{ "--stroke-0": "rgba(33, 34, 35, 1)" } as React.CSSProperties}>
+                            <img alt="" className="block max-w-none size-full" src={img36} />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="absolute bottom-0 h-[131px] opacity-0 right-[-190px] w-[400px]" data-name="Atlas Button Messages" data-node-id="1043:51942">
+          <div className="absolute bottom-[24.52px] h-[48.477px] right-[31.6px] w-[50.396px]" data-name="Atlas Icon" data-node-id="I1043:51942;1024:65045">
+            <div className="absolute contents inset-0" data-node-id="I1043:51942;1024:65045;1011:42247">
+              <div className="absolute flex inset-0 items-center justify-center">
+                <div className="flex-none h-[45.373px] rotate-[356.122deg] w-[47.436px]">
+                  <div className="bg-[var(--bg-color\/primary,#ffffff)] rounded-[6.758px] shadow-[0px_3.142px_6.283px_0px_rgba(26,29,35,0.08),0px_0px_0.785px_0px_rgba(144,146,145,0.56)] size-full" data-node-id="I1043:51942;1024:65045;1011:42248" />
+                </div>
+              </div>
+              <div className="absolute flex inset-[19.92%_25.73%_21.17%_22.26%] items-center justify-center">
+                <div className="flex-none h-[26.968px] rotate-[356.122deg] w-[24.442px]">
+                  <div className="relative size-full" data-node-id="I1043:51942;1024:65045;1011:42249">
+                    <img alt="" className="block max-w-none size-full" src={img37} />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <AtlasBubble className="absolute bg-[var(--bg-color\/brand-static,#e7eafe)] border border-[var(--border-color\/action-focus,#aeb7fb)] border-solid bottom-[79px] content-stretch flex flex-col items-start opacity-0 p-[var(--spacing\/1-5x,12px)] right-[24px] rounded-[var(--rounded\/lg,8px)] shadow-[0px_3.142px_6.283px_0px_rgba(26,29,35,0.08),0px_0px_0.785px_0px_rgba(144,146,145,0.56)]" />
+        </div>
+      </div>
+      <div className="absolute backdrop-blur-sm backdrop-filter bg-[rgba(255,255,255,0.88)] border-[var(--border-color\/separator-primary,#edebe8)] border-b border-l-0 border-r-0 border-solid border-t-0 content-stretch flex items-center justify-between left-[240px] p-[var(--spacing\/2x,16px)] right-0 top-0" data-name="Header" data-node-id="1043:51943">
+        <div className="content-stretch flex gap-[var(--spacing\/1x,0px)] items-center justify-end relative shrink-0" data-name="Left" data-node-id="I1043:51943;3851:26085">
+          <NavigationActions back={false} className="content-stretch flex gap-[var(--spacing\/1x,0px)] items-center justify-end shrink-0" />
+        </div>
+        <div className="content-stretch flex gap-[var(--spacing\/1x,0px)] items-center justify-end relative shrink-0" data-name="Right" data-node-id="I1043:51943;866:70862">
+          <div className="content-stretch flex gap-[var(--spacing\/1x,8px)] items-center justify-end relative shrink-0" data-name="_account actions" data-node-id="I1043:51943;27454:42614">
+            <div className="content-stretch flex flex-col items-center justify-end relative shrink-0" data-name="Messages" data-node-id="I1043:51943;27454:42614;27454:42600">
+              <div className="bg-[var(--bg-color\/action-secondary-base,#ffffff)] border-[0.5px] border-[var(--border-color\/action-tertiary-base,#dbdad6)] border-solid content-stretch flex h-[32px] items-center justify-center p-[var(--spacing\/1x,8px)] relative rounded-[8px] shadow-[0px_1px_4px_0px_rgba(0,0,0,0.06)] shrink-0" data-name="Messages" data-node-id="I1043:51943;27454:42614;27454:42601">
+                <div className="overflow-clip relative shrink-0 size-[16px]" data-name="Icon" data-node-id="I1043:51943;27454:42614;27454:42601;278:21695">
+                  <div className="absolute inset-[3.12%_3.05%_3.12%_3.13%]" data-name="Vector" data-node-id="I1043:51943;27454:42614;27454:42601;278:21695;1061:21822">
+                    <div className="absolute inset-[-3.33%]" style={{ "--stroke-0": "rgba(33, 34, 35, 1)" } as React.CSSProperties}>
+                      <img alt="" className="block max-w-none size-full" src={img38} />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <SwitchModeButton className="content-stretch flex items-start relative shrink-0" />
+            <div className="bg-[var(--bg-color\/action-secondary-base,#ffffff)] border-[0.5px] border-[var(--border-color\/action-tertiary-base,#dbdad6)] border-solid content-stretch flex gap-[var(--spacing\/1x,8px)] h-[32px] items-center justify-center p-[var(--spacing\/1x,8px)] relative rounded-[var(--rounded\/lg,8px)] shadow-[0px_1px_4px_0px_rgba(0,0,0,0.06)] shrink-0" data-name="Notifications" data-node-id="I1043:51943;27454:42614;33750:9453">
+              <div className="overflow-clip relative shrink-0 size-[16px]" data-name="Icon" data-node-id="I1043:51943;27454:42614;33750:9454">
+                <div className="absolute inset-[90.63%_41.65%_3.13%_41.67%]" data-name="Vector" data-node-id="I1043:51943;27454:42614;33750:9454;1061:22025">
+                  <div className="absolute inset-[-50.04%_-18.73%_-50.03%_-18.73%]" style={{ "--stroke-0": "rgba(33, 34, 35, 1)" } as React.CSSProperties}>
+                    <img alt="" className="block max-w-none size-full" src={img39} />
+                  </div>
+                </div>
+                <div className="absolute bottom-[87.5%] left-1/2 right-1/2 top-[3.13%]" data-name="Vector" data-node-id="I1043:51943;27454:42614;33750:9454;1061:22026">
+                  <div className="absolute inset-[-33.33%_-0.5px]" style={{ "--stroke-0": "rgba(33, 34, 35, 1)" } as React.CSSProperties}>
+                    <img alt="" className="block max-w-none size-full" src={img40} />
+                  </div>
+                </div>
+                <div className="absolute inset-[12.5%_12.5%_21.88%_12.5%]" data-name="Vector" data-node-id="I1043:51943;27454:42614;33750:9454;1061:22027">
+                  <div className="absolute inset-[-4.76%_-4.17%]" style={{ "--stroke-0": "rgba(33, 34, 35, 1)" } as React.CSSProperties}>
+                    <img alt="" className="block max-w-none size-full" src={img41} />
+                  </div>
+                </div>
+              </div>
+              <div className="absolute bg-[var(--marketing-color\/dark-eclipse,#d6ee40)] content-stretch flex flex-col h-[var(--spacing\/2x,16px)] items-center justify-center left-[23.5px] min-w-[16px] px-[var(--spacing\/0-5x,4px)] py-0 rounded-[var(--rounded\/full,999px)] top-[-8.5px]" data-name="Notification badge" data-node-id="I1043:51943;27454:42614;33750:9455">
+                <div className="flex flex-col font-['Saans:SemiBold',sans-serif] h-[9px] justify-center leading-[0] not-italic relative shrink-0 text-[10px] text-[color:var(--color\/lime\/900,#18250f)] text-center tracking-[0.2px] w-full" data-node-id="I1043:51943;27454:42614;33750:9456">
+                  <p className="leading-[10px] whitespace-pre-wrap">2</p>
+                </div>
+              </div>
+            </div>
+            <ProfileChip className="relative rounded-[var(--rounded\/full,999px)] shrink-0 size-[32px]" size="32px" variation="Photo" />
+          </div>
+        </div>
+      </div>
+      <div className="absolute bg-[var(--bg-color\/primary,#ffffff)] border-[var(--border-color\/separator-primary,#edebe8)] border-b-0 border-l-0 border-r border-solid border-t-0 content-stretch flex flex-col gap-[16px] h-[810px] items-center left-0 overflow-clip px-0 py-[16px] top-0 w-[240px]" data-name="Sidebar" data-node-id="1043:51944">
+        <div className="content-stretch flex flex-col items-start justify-center overflow-clip pb-[10px] pt-[6px] px-[16px] relative shrink-0 w-full" data-name="Logo container" data-node-id="I1043:51944;1452:19656">
+          <div className="h-[16px] relative shrink-0 w-[97.655px]" data-name="Logo" data-node-id="I1043:51944;1672:19730">
+            <div className="absolute inset-[27.56%_0_1.28%_89.37%]" data-name="Vector" data-node-id="I1043:51944;1672:19730;1667:19978">
+              <div className="absolute inset-0" style={{ "--fill-0": "rgba(74, 95, 247, 1)" } as React.CSSProperties}>
+                <img alt="" className="block max-w-none size-full" src={img42} />
+              </div>
+            </div>
+            <div className="absolute inset-[26.51%_12.03%_0_79.45%]" data-name="Vector" data-node-id="I1043:51944;1672:19730;1667:19974">
+              <div className="absolute inset-0" style={{ "--fill-0": "rgba(74, 95, 247, 1)" } as React.CSSProperties}>
+                <img alt="" className="block max-w-none size-full" src={img43} />
+              </div>
+            </div>
+            <div className="absolute inset-[27.78%_21.51%_1.64%_72.11%]" data-name="Vector" data-node-id="I1043:51944;1672:19730;1667:19980">
+              <div className="absolute inset-0" style={{ "--fill-0": "rgba(74, 95, 247, 1)" } as React.CSSProperties}>
+                <img alt="" className="block max-w-none size-full" src={img44} />
+              </div>
+            </div>
+            <div className="absolute inset-[27.19%_29.22%_0.69%_59.78%]" data-name="Vector" data-node-id="I1043:51944;1672:19730;1667:19975">
+              <div className="absolute inset-0" style={{ "--fill-0": "rgba(74, 95, 247, 1)" } as React.CSSProperties}>
+                <img alt="" className="block max-w-none size-full" src={img45} />
+              </div>
+            </div>
+            <div className="absolute inset-[28.02%_40.22%_1.5%_48.11%]" data-name="Vector" data-node-id="I1043:51944;1672:19730;1667:19973">
+              <div className="absolute inset-0" style={{ "--fill-0": "rgba(74, 95, 247, 1)" } as React.CSSProperties}>
+                <img alt="" className="block max-w-none size-full" src={img46} />
+              </div>
+            </div>
+            <div className="absolute inset-[28.02%_53.01%_1.5%_44.63%]" data-name="Vector" data-node-id="I1043:51944;1672:19730;1667:19972">
+              <div className="absolute inset-0" style={{ "--fill-0": "rgba(74, 95, 247, 1)" } as React.CSSProperties}>
+                <img alt="" className="block max-w-none size-full" src={img47} />
+              </div>
+            </div>
+            <div className="absolute inset-[0_52.5%_82.16%_44.11%]" data-name="Vector" data-node-id="I1043:51944;1672:19730;1667:19976">
+              <div className="absolute inset-0" style={{ "--fill-0": "rgba(74, 95, 247, 1)" } as React.CSSProperties}>
+                <img alt="" className="block max-w-none size-full" src={img48} />
+              </div>
+            </div>
+            <div className="absolute inset-[7.94%_56.73%_1.64%_34.96%]" data-name="Vector" data-node-id="I1043:51944;1672:19730;1667:19979">
+              <div className="absolute inset-0" style={{ "--fill-0": "rgba(74, 95, 247, 1)" } as React.CSSProperties}>
+                <img alt="" className="block max-w-none size-full" src={img49} />
+              </div>
+            </div>
+            <div className="absolute inset-[0.15%_66.13%_1.5%_31.51%]" data-name="Vector" data-node-id="I1043:51944;1672:19730;1667:19971">
+              <div className="absolute inset-0" style={{ "--fill-0": "rgba(74, 95, 247, 1)" } as React.CSSProperties}>
+                <img alt="" className="block max-w-none size-full" src={img50} />
+              </div>
+            </div>
+            <div className="absolute inset-[27.94%_70.88%_0.51%_19.07%]" data-name="Vector" data-node-id="I1043:51944;1672:19730;1667:19970">
+              <div className="absolute inset-0" style={{ "--fill-0": "rgba(74, 95, 247, 1)" } as React.CSSProperties}>
+                <img alt="" className="block max-w-none size-full" src={img51} />
+              </div>
+            </div>
+            <div className="absolute inset-[28.02%_82.98%_1.5%_0]" data-name="Vector" data-node-id="I1043:51944;1672:19730;1667:19977">
+              <div className="absolute inset-0" style={{ "--fill-0": "rgba(74, 95, 247, 1)" } as React.CSSProperties}>
+                <img alt="" className="block max-w-none size-full" src={img52} />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="content-stretch flex flex-col gap-[var(--spacing\/2x,0px)] items-start px-[var(--spacing\/1x,8px)] py-0 relative shrink-0 w-full" data-name="_list item group" data-node-id="I1043:51944;3851:18544">
+          <div className="content-stretch flex flex-col gap-[var(--spacing\/0-5x,4px)] items-start relative shrink-0 w-full" data-name="Container" data-node-id="I1043:51944;3851:18544;27502:61815">
+            <div className="bg-[var(--bg-color\/sidebar-item-active,#f5f7ff)] content-stretch flex items-center px-0 py-[var(--spacing\/0x,0px)] relative rounded-[var(--rounded\/lg,8px)] shrink-0 w-full" data-name="Sidebar list item" data-node-id="I1043:51944;3851:18544;29971:3702">
+              <div className="content-stretch flex flex-[1_0_0] gap-[var(--spacing\/1x,8px)] items-center min-h-px min-w-px px-[var(--spacing\/1x,8px)] py-0 relative shrink-0" data-name="Container" data-node-id="I1043:51944;3851:18544;29971:3702;12743:17554">
+                <div className="overflow-clip relative shrink-0 size-[16px]" data-name="Icon" data-node-id="I1043:51944;3851:18544;29971:3702;5644:29504">
+                  <div className="absolute inset-[8.33%_8.33%_8.25%_8.33%]" data-name="Group" data-node-id="I1043:51944;3851:18544;29971:3702;5644:29504;1061:21036">
+                    <div className="absolute inset-[-3.75%]">
+                      <img alt="" className="block max-w-none size-full" src={img53} />
+                    </div>
+                  </div>
+                </div>
+                <div className="flex flex-[1_0_0] flex-col font-['Saans:Medium',sans-serif] h-[32px] justify-center leading-[0] min-h-px min-w-px not-italic overflow-ellipsis overflow-hidden relative shrink-0 text-[14px] text-[color:var(--text-color\/sidebar-item-active,#3848bb)] tracking-[0.28px] whitespace-nowrap" data-node-id="I1043:51944;3851:18544;29971:3702;866:70782">
+                  <p className="leading-[1.25] overflow-ellipsis overflow-hidden">Home</p>
+                </div>
+              </div>
+            </div>
+            <div className="bg-[var(--bg-color\/sidebar-item-base,#ffffff)] content-stretch flex items-center px-0 py-[var(--spacing\/0x,0px)] relative rounded-bl-[var(--rounded\/lg,8px)] rounded-br-[8px] rounded-tl-[8px] rounded-tr-[8px] shrink-0 w-full" data-name="Sidebar list item" data-node-id="I1043:51944;3851:18544;29971:3703">
+              <div className="content-stretch flex flex-[1_0_0] gap-[var(--spacing\/1x,8px)] h-[32px] items-center min-h-px min-w-px px-[var(--spacing\/1x,8px)] py-0 relative shrink-0" data-name="Container" data-node-id="I1043:51944;3851:18544;29971:3703;12743:15648">
+                <div className="overflow-clip relative shrink-0 size-[16px]" data-name="Icon" data-node-id="I1043:51944;3851:18544;29971:3703;5644:28225">
+                  <div className="absolute inset-[3.11%_59.38%_59.39%_3.13%]" data-name="Vector" data-node-id="I1043:51944;3851:18544;29971:3703;5644:28225;1061:21171">
+                    <div className="absolute inset-[-8.33%]" style={{ "--stroke-0": "rgba(33, 34, 35, 1)" } as React.CSSProperties}>
+                      <img alt="" className="block max-w-none size-full" src={img54} />
+                    </div>
+                  </div>
+                  <div className="absolute inset-[59.36%_59.38%_3.14%_3.13%]" data-name="Vector" data-node-id="I1043:51944;3851:18544;29971:3703;5644:28225;1061:21172">
+                    <div className="absolute inset-[-8.33%]" style={{ "--stroke-0": "rgba(33, 34, 35, 1)" } as React.CSSProperties}>
+                      <img alt="" className="block max-w-none size-full" src={img54} />
+                    </div>
+                  </div>
+                  <div className="absolute inset-[3.11%_3.13%_59.39%_59.38%]" data-name="Vector" data-node-id="I1043:51944;3851:18544;29971:3703;5644:28225;1061:21173">
+                    <div className="absolute inset-[-8.33%]" style={{ "--stroke-0": "rgba(33, 34, 35, 1)" } as React.CSSProperties}>
+                      <img alt="" className="block max-w-none size-full" src={img54} />
+                    </div>
+                  </div>
+                  <div className="absolute inset-[59.36%_3.13%_3.14%_59.38%]" data-name="Vector" data-node-id="I1043:51944;3851:18544;29971:3703;5644:28225;1061:21174">
+                    <div className="absolute inset-[-8.33%]" style={{ "--stroke-0": "rgba(33, 34, 35, 1)" } as React.CSSProperties}>
+                      <img alt="" className="block max-w-none size-full" src={img54} />
+                    </div>
+                  </div>
+                </div>
+                <div className="flex flex-[1_0_0] flex-col font-['Saans:Medium',sans-serif] h-[32px] justify-center leading-[0] min-h-px min-w-px not-italic overflow-ellipsis overflow-hidden relative shrink-0 text-[14px] text-[color:var(--text-color\/sidebar-item-base,#212223)] tracking-[0.28px] whitespace-nowrap" data-node-id="I1043:51944;3851:18544;29971:3703;866:70778">
+                  <p className="leading-[1.25] overflow-ellipsis overflow-hidden">Modules</p>
+                </div>
+              </div>
+            </div>
+            <div className="bg-[var(--bg-color\/sidebar-item-base,#ffffff)] content-stretch flex items-center px-0 py-[var(--spacing\/0x,0px)] relative rounded-[var(--rounded\/lg,8px)] shrink-0 w-full" data-name="Sidebar list item" data-node-id="I1043:51944;3851:18544;29971:3704">
+              <div className="content-stretch flex flex-[1_0_0] gap-[var(--spacing\/1x,8px)] h-[32px] items-center min-h-px min-w-px px-[var(--spacing\/1x,8px)] py-0 relative shrink-0" data-name="Container" data-node-id="I1043:51944;3851:18544;29971:3704;12743:15648">
+                <div className="overflow-clip relative shrink-0 size-[16px]" data-name="Icon" data-node-id="I1043:51944;3851:18544;29971:3704;5644:28225">
+                  <div className="absolute inset-[10.19%_10.19%_3.12%_3.13%]" data-name="Vector" data-node-id="I1043:51944;3851:18544;29971:3704;5644:28225;1061:20263">
+                    <div className="absolute inset-[-3.61%]" style={{ "--stroke-0": "rgba(33, 34, 35, 1)" } as React.CSSProperties}>
+                      <img alt="" className="block max-w-none size-full" src={img55} />
+                    </div>
+                  </div>
+                  <div className="absolute inset-[65.63%_33.65%_32.23%_51.42%]" data-name="Vector" data-node-id="I1043:51944;3851:18544;29971:3704;5644:28225;1061:20264">
+                    <div className="absolute inset-[-146.5%_-20.93%]" style={{ "--stroke-0": "rgba(33, 34, 35, 1)" } as React.CSSProperties}>
+                      <img alt="" className="block max-w-none size-full" src={img56} />
+                    </div>
+                  </div>
+                  <div className="absolute inset-[52.84%_20.85%_45.03%_64.22%]" data-name="Vector" data-node-id="I1043:51944;3851:18544;29971:3704;5644:28225;1061:20265">
+                    <div className="absolute inset-[-146.5%_-20.94%]" style={{ "--stroke-0": "rgba(33, 34, 35, 1)" } as React.CSSProperties}>
+                      <img alt="" className="block max-w-none size-full" src={img57} />
+                    </div>
+                  </div>
+                  <div className="absolute inset-[3%_2.99%_15.79%_15.79%]" data-name="Vector" data-node-id="I1043:51944;3851:18544;29971:3704;5644:28225;1061:20266">
+                    <div className="absolute inset-[-3.85%]" style={{ "--stroke-0": "rgba(33, 34, 35, 1)" } as React.CSSProperties}>
+                      <img alt="" className="block max-w-none size-full" src={img58} />
+                    </div>
+                  </div>
+                </div>
+                <div className="flex flex-[1_0_0] flex-col font-['Saans:Medium',sans-serif] h-[32px] justify-center leading-[0] min-h-px min-w-px not-italic overflow-ellipsis overflow-hidden relative shrink-0 text-[14px] text-[color:var(--text-color\/sidebar-item-base,#212223)] tracking-[0.28px] whitespace-nowrap" data-node-id="I1043:51944;3851:18544;29971:3704;866:70778">
+                  <p className="leading-[1.25] overflow-ellipsis overflow-hidden">Projects</p>
+                </div>
+              </div>
+            </div>
+            <div className="bg-[var(--bg-color\/sidebar-item-base,#ffffff)] content-stretch flex items-center px-0 py-[var(--spacing\/0x,0px)] relative rounded-bl-[var(--rounded\/lg,8px)] rounded-br-[8px] rounded-tl-[var(--rounded\/lg,8px)] rounded-tr-[var(--rounded\/lg,8px)] shrink-0 w-full" data-name="Sidebar list item" data-node-id="I1043:51944;3851:18544;29971:3705">
+              <div className="content-stretch flex flex-[1_0_0] gap-[var(--spacing\/1x,8px)] h-[32px] items-center min-h-px min-w-px px-[var(--spacing\/1x,8px)] py-0 relative shrink-0" data-name="Container" data-node-id="I1043:51944;3851:18544;29971:3705;12743:15648">
+                <div className="overflow-clip relative shrink-0 size-[16px]" data-name="Icon" data-node-id="I1043:51944;3851:18544;29971:3705;5644:28225">
+                  <div className="absolute bottom-[87.5%] left-[48.44%] right-1/2 top-[9.38%]" data-name="Vector" data-node-id="I1043:51944;3851:18544;29971:3705;5644:28225;1061:20604">
+                    <div className="absolute inset-[-100%_-100%_-100%_-200%]" style={{ "--stroke-0": "rgba(33, 34, 35, 1)" } as React.CSSProperties}>
+                      <img alt="" className="block max-w-none size-full" src={img59} />
+                    </div>
+                  </div>
+                  <div className="absolute bottom-[87.5%] left-1/2 right-[48.44%] top-[9.38%]" data-name="Vector" data-node-id="I1043:51944;3851:18544;29971:3705;5644:28225;1061:20605">
+                    <div className="absolute inset-[-100%_-200%_-100%_-100%]" style={{ "--stroke-0": "rgba(33, 34, 35, 1)" } as React.CSSProperties}>
+                      <img alt="" className="block max-w-none size-full" src={img60} />
+                    </div>
+                  </div>
+                  <div className="absolute bottom-1/2 left-[40.63%] right-[40.63%] top-[31.25%]" data-name="Vector" data-node-id="I1043:51944;3851:18544;29971:3705;5644:28225;1061:20606">
+                    <div className="absolute inset-[-16.67%]" style={{ "--stroke-0": "rgba(33, 34, 35, 1)" } as React.CSSProperties}>
+                      <img alt="" className="block max-w-none size-full" src={img61} />
+                    </div>
+                  </div>
+                  <div className="absolute inset-[53.13%_34.38%_37.5%_34.38%]" data-name="Vector" data-node-id="I1043:51944;3851:18544;29971:3705;5644:28225;1061:20607">
+                    <div className="absolute inset-[-33.33%_-10%_-33.34%_-10%]" style={{ "--stroke-0": "rgba(33, 34, 35, 1)" } as React.CSSProperties}>
+                      <img alt="" className="block max-w-none size-full" src={img62} />
+                    </div>
+                  </div>
+                  <div className="absolute bottom-1/4 left-[3.13%] right-[3.13%] top-[12.5%]" data-name="Vector" data-node-id="I1043:51944;3851:18544;29971:3705;5644:28225;1061:20608">
+                    <div className="absolute inset-[-5%_-3.33%]" style={{ "--stroke-0": "rgba(33, 34, 35, 1)" } as React.CSSProperties}>
+                      <img alt="" className="block max-w-none size-full" src={img63} />
+                    </div>
+                  </div>
+                  <div className="absolute bottom-[6.25%] left-[34.38%] right-[34.38%] top-3/4" data-name="Vector" data-node-id="I1043:51944;3851:18544;29971:3705;5644:28225;1061:20609">
+                    <div className="absolute inset-[-16.67%_-10%]" style={{ "--stroke-0": "rgba(33, 34, 35, 1)" } as React.CSSProperties}>
+                      <img alt="" className="block max-w-none size-full" src={img64} />
+                    </div>
+                  </div>
+                  <div className="absolute bottom-[6.25%] left-1/4 right-1/4 top-[93.75%]" data-name="Vector" data-node-id="I1043:51944;3851:18544;29971:3705;5644:28225;1061:20610">
+                    <div className="absolute inset-[-0.5px_-6.25%]" style={{ "--stroke-0": "rgba(33, 34, 35, 1)" } as React.CSSProperties}>
+                      <img alt="" className="block max-w-none size-full" src={img65} />
+                    </div>
+                  </div>
+                </div>
+                <div className="flex flex-[1_0_0] flex-col font-['Saans:Medium',sans-serif] h-[32px] justify-center leading-[0] min-h-px min-w-px not-italic overflow-ellipsis overflow-hidden relative shrink-0 text-[14px] text-[color:var(--text-color\/sidebar-item-base,#212223)] tracking-[0.28px] whitespace-nowrap" data-node-id="I1043:51944;3851:18544;29971:3705;866:70778">
+                  <p className="leading-[1.25] overflow-ellipsis overflow-hidden">My sessions</p>
+                </div>
+              </div>
+            </div>
+            <div className="bg-[var(--bg-color\/sidebar-item-base,#ffffff)] content-stretch flex items-center px-0 py-[var(--spacing\/0x,0px)] relative rounded-bl-[var(--rounded\/lg,8px)] rounded-br-[8px] rounded-tl-[var(--rounded\/lg,8px)] rounded-tr-[var(--rounded\/lg,8px)] shrink-0 w-full" data-name="Sidebar list item" data-node-id="I1043:51944;3851:18544;29971:3706">
+              <div className="content-stretch flex flex-[1_0_0] gap-[var(--spacing\/1x,8px)] h-[32px] items-center min-h-px min-w-px px-[var(--spacing\/1x,8px)] py-0 relative shrink-0" data-name="Container" data-node-id="I1043:51944;3851:18544;29971:3706;12743:15648">
+                <div className="overflow-clip relative shrink-0 size-[16px]" data-name="Icon" data-node-id="I1043:51944;3851:18544;29971:3706;5644:28225">
+                  <div className="absolute inset-[15.63%_3.12%_3.13%_3.13%]" data-name="Vector" data-node-id="I1043:51944;3851:18544;29971:3706;5644:28225;1061:21927">
+                    <div className="absolute inset-[-3.85%_-3.33%]" style={{ "--stroke-0": "rgba(33, 34, 35, 1)" } as React.CSSProperties}>
+                      <img alt="" className="block max-w-none size-full" src={img66} />
+                    </div>
+                  </div>
+                  <div className="absolute inset-[40.63%_3.12%_59.38%_3.13%]" data-name="Vector" data-node-id="I1043:51944;3851:18544;29971:3706;5644:28225;1061:21928">
+                    <div className="absolute inset-[-0.5px_-3.33%]" style={{ "--stroke-0": "rgba(33, 34, 35, 1)" } as React.CSSProperties}>
+                      <img alt="" className="block max-w-none size-full" src={img67} />
+                    </div>
+                  </div>
+                  <div className="absolute bottom-3/4 left-[28.13%] right-[71.87%] top-[3.13%]" data-name="Vector" data-node-id="I1043:51944;3851:18544;29971:3706;5644:28225;1061:21929">
+                    <div className="absolute inset-[-14.29%_-0.5px]" style={{ "--stroke-0": "rgba(33, 34, 35, 1)" } as React.CSSProperties}>
+                      <img alt="" className="block max-w-none size-full" src={img68} />
+                    </div>
+                  </div>
+                  <div className="absolute bottom-3/4 left-[71.88%] right-[28.12%] top-[3.13%]" data-name="Vector" data-node-id="I1043:51944;3851:18544;29971:3706;5644:28225;1061:21930">
+                    <div className="absolute inset-[-14.29%_-0.5px]" style={{ "--stroke-0": "rgba(33, 34, 35, 1)" } as React.CSSProperties}>
+                      <img alt="" className="block max-w-none size-full" src={img68} />
+                    </div>
+                  </div>
+                </div>
+                <div className="flex flex-[1_0_0] flex-col font-['Saans:Medium',sans-serif] h-[32px] justify-center leading-[0] min-h-px min-w-px not-italic overflow-ellipsis overflow-hidden relative shrink-0 text-[14px] text-[color:var(--text-color\/sidebar-item-base,#212223)] tracking-[0.28px] whitespace-nowrap" data-node-id="I1043:51944;3851:18544;29971:3706;866:70778">
+                  <p className="leading-[1.25] overflow-ellipsis overflow-hidden">Off the job</p>
+                </div>
+              </div>
+            </div>
+            <div className="bg-[var(--bg-color\/sidebar-item-base,#ffffff)] content-stretch flex items-center px-0 py-[var(--spacing\/0x,0px)] relative rounded-bl-[var(--rounded\/lg,8px)] rounded-br-[var(--rounded\/lg,8px)] rounded-tl-[8px] rounded-tr-[8px] shrink-0 w-full" data-name="Sidebar list item" data-node-id="I1043:51944;3851:18544;29971:3707">
+              <div className="content-stretch flex flex-[1_0_0] gap-[var(--spacing\/1x,8px)] h-[32px] items-center min-h-px min-w-px px-[var(--spacing\/1x,8px)] py-0 relative shrink-0" data-name="Container" data-node-id="I1043:51944;3851:18544;29971:3707;12743:15648">
+                <div className="overflow-clip relative shrink-0 size-[16px]" data-name="Icon" data-node-id="I1043:51944;3851:18544;29971:3707;5644:28225">
+                  <div className="absolute inset-[69.09%_29.03%_10.42%_29.03%]" data-name="Vector" data-node-id="I1043:51944;3851:18544;29971:3707;5644:28225;1061:21076">
+                    <div className="absolute inset-[-15.25%_-7.45%]" style={{ "--stroke-0": "rgba(33, 34, 35, 1)" } as React.CSSProperties}>
+                      <img alt="" className="block max-w-none size-full" src={img69} />
+                    </div>
+                  </div>
+                  <div className="absolute inset-[8.94%_3.13%_55.89%_3.13%]" data-name="Vector" data-node-id="I1043:51944;3851:18544;29971:3707;5644:28225;1061:21077">
+                    <div className="absolute inset-[-8.89%_-3.33%]" style={{ "--stroke-0": "rgba(33, 34, 35, 1)" } as React.CSSProperties}>
+                      <img alt="" className="block max-w-none size-full" src={img70} />
+                    </div>
+                  </div>
+                  <div className="absolute inset-[40.49%_3.12%_33.96%_3.13%]" data-name="Vector" data-node-id="I1043:51944;3851:18544;29971:3707;5644:28225;1061:21078">
+                    <div className="absolute inset-[-12.23%_-3.33%]" style={{ "--stroke-0": "rgba(33, 34, 35, 1)" } as React.CSSProperties}>
+                      <img alt="" className="block max-w-none size-full" src={img71} />
+                    </div>
+                  </div>
+                </div>
+                <div className="flex flex-[1_0_0] flex-col font-['Saans:Medium',sans-serif] h-[32px] justify-center leading-[0] min-h-px min-w-px not-italic overflow-ellipsis overflow-hidden relative shrink-0 text-[14px] text-[color:var(--text-color\/sidebar-item-base,#212223)] tracking-[0.28px] whitespace-nowrap" data-node-id="I1043:51944;3851:18544;29971:3707;866:70778">
+                  <p className="leading-[1.25] overflow-ellipsis overflow-hidden">Progress reviews</p>
+                </div>
+              </div>
+            </div>
+            <div className="bg-[var(--bg-color\/sidebar-item-base,#ffffff)] content-stretch flex items-center px-0 py-[var(--spacing\/0x,0px)] relative rounded-bl-[var(--rounded\/lg,8px)] rounded-br-[var(--rounded\/lg,8px)] rounded-tl-[8px] rounded-tr-[8px] shrink-0 w-full" data-name="Sidebar list item" data-node-id="I1043:51944;3851:18544;29971:3708">
+              <div className="content-stretch flex flex-[1_0_0] gap-[var(--spacing\/1x,8px)] h-[32px] items-center min-h-px min-w-px px-[var(--spacing\/1x,8px)] py-0 relative shrink-0" data-name="Container" data-node-id="I1043:51944;3851:18544;29971:3708;12743:15648">
+                <div className="overflow-clip relative shrink-0 size-[16px]" data-name="Icon" data-node-id="I1043:51944;3851:18544;29971:3708;5644:28225">
+                  <div className="absolute inset-[9.38%_3.12%_9.38%_3.13%]" data-name="Vector" data-node-id="I1043:51944;3851:18544;29971:3708;5644:28225;1061:21246">
+                    <div className="absolute inset-[-3.85%_-3.33%]" style={{ "--stroke-0": "rgba(33, 34, 35, 1)" } as React.CSSProperties}>
+                      <img alt="" className="block max-w-none size-full" src={img72} />
+                    </div>
+                  </div>
+                </div>
+                <div className="flex flex-[1_0_0] flex-col font-['Saans:Medium',sans-serif] h-[32px] justify-center leading-[0] min-h-px min-w-px not-italic overflow-ellipsis overflow-hidden relative shrink-0 text-[14px] text-[color:var(--text-color\/sidebar-item-base,#212223)] tracking-[0.28px] whitespace-nowrap" data-node-id="I1043:51944;3851:18544;29971:3708;866:70778">
+                  <p className="leading-[1.25] overflow-ellipsis overflow-hidden">Portfolio</p>
+                </div>
+              </div>
+            </div>
+            <div className="bg-[var(--bg-color\/sidebar-item-base,#ffffff)] content-stretch flex items-center px-0 py-[var(--spacing\/0x,0px)] relative rounded-bl-[8px] rounded-br-[var(--rounded\/lg,8px)] rounded-tl-[8px] rounded-tr-[8px] shrink-0 w-full" data-name="Sidebar list item" data-node-id="I1043:51944;3851:18544;29971:3709">
+              <div className="content-stretch flex flex-[1_0_0] gap-[var(--spacing\/1x,8px)] h-[32px] items-center min-h-px min-w-px px-[var(--spacing\/1x,8px)] py-0 relative shrink-0" data-name="Container" data-node-id="I1043:51944;3851:18544;29971:3709;12743:15648">
+                <div className="overflow-clip relative shrink-0 size-[16px]" data-name="Icon" data-node-id="I1043:51944;3851:18544;29971:3709;5644:28225">
+                  <div className="absolute inset-[37.5%]" data-name="Vector" data-node-id="I1043:51944;3851:18544;29971:3709;5644:28225;1061:21687">
+                    <div className="absolute inset-[-12.5%]" style={{ "--stroke-0": "rgba(33, 34, 35, 1)" } as React.CSSProperties}>
+                      <img alt="" className="block max-w-none size-full" src={img73} />
+                    </div>
+                  </div>
+                  <div className="absolute inset-[4.17%]" data-name="Vector" data-node-id="I1043:51944;3851:18544;29971:3709;5644:28225;1061:21688">
+                    <div className="absolute inset-[-3.41%]" style={{ "--stroke-0": "rgba(33, 34, 35, 1)" } as React.CSSProperties}>
+                      <img alt="" className="block max-w-none size-full" src={img74} />
+                    </div>
+                  </div>
+                </div>
+                <div className="flex flex-[1_0_0] flex-col font-['Saans:Medium',sans-serif] h-[32px] justify-center leading-[0] min-h-px min-w-px not-italic overflow-ellipsis overflow-hidden relative shrink-0 text-[14px] text-[color:var(--text-color\/sidebar-item-base,#212223)] tracking-[0.28px] whitespace-nowrap" data-node-id="I1043:51944;3851:18544;29971:3709;866:70778">
+                  <p className="leading-[1.25] overflow-ellipsis overflow-hidden">User settings</p>
+                </div>
+              </div>
+            </div>
+            <div className="bg-[var(--bg-color\/sidebar-item-base,#ffffff)] content-stretch flex items-center px-0 py-[var(--spacing\/0x,0px)] relative rounded-bl-[var(--rounded\/lg,8px)] rounded-br-[8px] rounded-tl-[8px] rounded-tr-[8px] shrink-0 w-full" data-name="Sidebar list item" data-node-id="I1043:51944;3851:18544;29971:3710">
+              <div className="content-stretch flex flex-[1_0_0] gap-[var(--spacing\/1x,8px)] h-[32px] items-center min-h-px min-w-px px-[var(--spacing\/1x,8px)] py-0 relative shrink-0" data-name="Container" data-node-id="I1043:51944;3851:18544;29971:3710;12743:15648">
+                <div className="overflow-clip relative shrink-0 size-[16px]" data-name="Icon" data-node-id="I1043:51944;3851:18544;29971:3710;5644:28225">
+                  <div className="absolute inset-[8.99%_3.13%_8.98%_3.12%]" data-name="Vector" data-node-id="I1043:51944;3851:18544;29971:3710;5644:28225;1061:21083">
+                    <div className="absolute inset-[-3.81%_-3.33%]" style={{ "--stroke-0": "rgba(33, 34, 35, 1)" } as React.CSSProperties}>
+                      <img alt="" className="block max-w-none size-full" src={img75} />
+                    </div>
+                  </div>
+                </div>
+                <div className="flex flex-[1_0_0] flex-col font-['Saans:Medium',sans-serif] h-[32px] justify-center leading-[0] min-h-px min-w-px not-italic overflow-ellipsis overflow-hidden relative shrink-0 text-[14px] text-[color:var(--text-color\/sidebar-item-base,#212223)] tracking-[0.28px] whitespace-nowrap" data-node-id="I1043:51944;3851:18544;29971:3710;866:70778">
+                  <p className="leading-[1.25] overflow-ellipsis overflow-hidden">Community</p>
+                </div>
+                <div className="absolute overflow-clip right-[16px] size-[16px] top-[8px]" data-name="Arrow up right" data-node-id="I1043:51944;3851:18544;29971:3710;1443:19612">
+                  <div className="absolute flex inset-[15.62%_17.04%_18.08%_16.67%] items-center justify-center">
+                    <div className="flex-none scale-y-[-100%] size-[10.607px]">
+                      <div className="relative size-full" data-name="Vector" data-node-id="I1043:51944;3851:18544;29971:3710;1443:19612;1061:22054">
+                        <div className="absolute inset-[-4.71%]" style={{ "--stroke-0": "rgba(111, 113, 113, 1)" } as React.CSSProperties}>
+                          <img alt="" className="block max-w-none size-full" src={img76} />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="absolute flex inset-[15.63%_17.04%_21.87%_20.46%] items-center justify-center">
+                    <div className="flex-none scale-y-[-100%] size-[10px]">
+                      <div className="relative size-full" data-name="Vector" data-node-id="I1043:51944;3851:18544;29971:3710;1443:19612;1061:22055">
+                        <div className="absolute inset-[-5%]" style={{ "--stroke-0": "rgba(111, 113, 113, 1)" } as React.CSSProperties}>
+                          <img alt="" className="block max-w-none size-full" src={img77} />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+### Content Block 2 (Text)
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+### Content Block 3 (Text)
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+### Content Block 4 (Text)
+These styles are contained in the design: text-s/leading-tight/medium: Font(family: "Saans", style: Medium, size: 14, weight: 570, lineHeight: 1.25, letterSpacing: 2), text-l/leading-tight/medium: Font(family: "Saans", style: Medium, size: 18, weight: 570, lineHeight: 1.25, letterSpacing: 2), text-xs/leading-tight/medium: Font(family: "Saans", style: Medium, size: 12, weight: 570, lineHeight: 1.25, letterSpacing: 2), button-shadow-default: Effect(type: DROP_SHADOW, color: #0000000F, offset: (0, 1), radius: 4, spread: 0), text-xl/leading-tight/medium: Font(family: "Saans", style: Medium, size: 20, weight: 570, lineHeight: 1.25, letterSpacing: 0), text-xs/leading-tight/semibold: Font(family: "Saans", style: SemiBold, size: 12, weight: 600, lineHeight: 1.25, letterSpacing: 2), text-l/leading-tight/semibold: Font(family: "Saans", style: SemiBold, size: 18, weight: 670, lineHeight: 1.25, letterSpacing: 2), text-m/leading-tight/medium: Font(family: "Saans", style: Medium, size: 16, weight: 570, lineHeight: 1.25, letterSpacing: 2), text-xs/leading-tight/number-medium: Font(family: "Saans", style: Medium, size: 12, weight: 570, lineHeight: 1.25, letterSpacing: 2), text-m/leading-normal/regular: Font(family: "Saans", style: Regular, size: 16, weight: 400, lineHeight: 1.5, letterSpacing: 2), text-s/leading-tight/regular: Font(family: "Saans", style: Regular, size: 14, weight: 400, lineHeight: 1.25, letterSpacing: 2), text-s/leading-normal/regular: Font(family: "Saans", style: Regular, size: 14, weight: 400, lineHeight: 1.5, letterSpacing: 2), text-m/leading-tight/semibold: Font(family: "Saans", style: SemiBold, size: 16, weight: 670, lineHeight: 1.25, letterSpacing: 2), dropdown-menu: Effect(type: DROP_SHADOW, color: #9092918F, offset: (0, 0), radius: 1, spread: 0); Effect(type: DROP_SHADOW, color: #1A1D2314, offset: (0, 4), radius: 8, spread: 0), Button shadow: Default: Effect(type: DROP_SHADOW, color: #0000000F, offset: (0, 1), radius: 4, spread: 0), Portraits/John Smith: , Grey/Grey-100: #EBECED.
+
+### Content Block 5 (Text)
+Images and SVGs will be stored as constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.
+
+### Content Block 6 (Text)
+IMPORTANT: After you call this tool, you MUST call get_screenshot to get a screenshot of the node for context.
+
+</mcp_external_output>
