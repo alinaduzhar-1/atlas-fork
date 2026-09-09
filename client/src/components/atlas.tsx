@@ -75,6 +75,7 @@ const HEX_INDIGO_FILTER = "brightness(0) saturate(100%) invert(32%) sepia(98%) s
 import waveformIcon from "@/assets/waveform-icon.svg";
 import { useAtlasVersion } from "./atlas-version-context";
 import { ATLAS_CONVERSATION_STORAGE_KEY, ATLAS_FULLSCREEN_HANDOFF_PREFIX, unitContentGuidance } from "./atlas-constants";
+import { AtlasPrivacyNotice } from "./atlas-privacy-notice";
 
 function AtlasSquaresAvatar({ isAnimating = false, size = 24 }: { isAnimating?: boolean; size?: number }) {
   const shapeSize = size / 3;
@@ -6284,6 +6285,7 @@ function AtlasVersion3({ isVisible = true, onToggle, hideContentGuidance = false
             </div>
           </div>
         </div>
+        <AtlasPrivacyNotice />
       </div>
       <input
         type="file"

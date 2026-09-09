@@ -58,6 +58,7 @@ import { ATLAS_CONVERSATION_STORAGE_KEY, ATLAS_FULLSCREEN_HANDOFF_PREFIX } from 
 import { fetchSharedAtlasState } from "@/lib/atlas-sync";
 import { AtlasFeedbackModal } from "@/components/atlas";
 import { useAtlasVersion } from "@/components/atlas-version-context";
+import { AtlasPrivacyNotice } from "@/components/atlas-privacy-notice";
 import { ATLAS_FULLSCREEN_CLOSE_URL } from "@/components/atlas-constants";
 
 function chatRowDateLabel(date: Date): string {
@@ -1729,6 +1730,8 @@ export default function AtlasStandalonePage() {
           </div>
         </div>
       </div>
+      {/* Centred to match this view's 800px centred composer column. */}
+      <AtlasPrivacyNotice align="centre" />
     </motion.div>
   );
 
