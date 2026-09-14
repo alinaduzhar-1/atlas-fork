@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from "react";
 import { createPortal } from "react-dom";
-import { CoachChatHistory } from "@/components/coach-chat-history";
+import { CoachChatHistory, type CoachConversationPayload } from "@/components/coach-chat-history";
 import { loadSharedAtlasState, saveSharedAtlasState, subscribeSharedAtlasState, type SharedAtlasState, type SharedMessage } from "@/lib/atlas-sync";
 import { useSearch } from "wouter";
 import { motion, AnimatePresence } from "framer-motion";
@@ -61,6 +61,12 @@ import { AtlasFeedbackModal } from "@/components/atlas";
 import { useAtlasVersion } from "@/components/atlas-version-context";
 import { AtlasPrivacyNotice } from "@/components/atlas-privacy-notice";
 import { ATLAS_FULLSCREEN_CLOSE_URL } from "@/components/atlas-constants";
+
+/**
+ * Coach conversations carry a `coach:` prefixed id. They live in the Coaches
+ * group in history and must never show up under Recents.
+ */
+const isCoachChatId = (id?: string | null) => !!id && id.startsWith("coach:");
 
 function chatRowDateLabel(date: Date): string {
   const now = new Date();
@@ -923,7 +929,7 @@ export default function AtlasStandalonePage() {
     applyingSharedRef.current = true;
     sharedMessagesRef.current = shared.messages;
     const newlySeen = shared.chats.map(c => c.id);
-    setChatHistory(shared.chats.map(c => {
+    setChatHistory(shared.chats.filter(c => !isCoachChatId(c.id)).map(c => {
       const lastAtlas = [...(shared.messages[c.id] || [])].reverse().find(m => m.type === 'atlas');
       return {
         id: c.id,
@@ -999,7 +1005,7 @@ export default function AtlasStandalonePage() {
   useEffect(() => {
     if (!sharedHydratedRef.current || applyingSharedRef.current || isTyping) return;
     if (chatsTab === 'no-chats') return;
-    let chats = chatHistory.map(c => ({
+    let chats = chatHistory.filter(c => !isCoachChatId(c.id)).map(c => ({
       id: c.id,
       name: c.title,
       timestamp: (c.timestamp instanceof Date ? c.timestamp : new Date()).toISOString(),
@@ -1007,7 +1013,9 @@ export default function AtlasStandalonePage() {
       preview: c.preview,
     }));
     const messages: Record<string, SharedMessage[]> = { ...sharedMessagesRef.current };
-    if (currentChatId && chatMessages.length > 0) {
+    // Coach conversations stay out of the shared state, so they cannot sync
+    // back into Recents. Same fix as the sidebar.
+    if (currentChatId && chatMessages.length > 0 && !isCoachChatId(currentChatId)) {
       messages[currentChatId] = chatMessages.map(serializeSharedMessage);
       if (chats.some(c => c.id === currentChatId)) {
         chats = chats.map(c => c.id === currentChatId ? { ...c, name: currentChatName } : c);
@@ -1254,10 +1262,14 @@ export default function AtlasStandalonePage() {
       setCurrentChatId(newChatId);
       setCurrentChatName(chatTitle);
       if (chatsTab === 'no-chats') setNoChatsLocalIds(prev => [...prev, newChatId]);
-      setChatHistory(prev => [
-        { id: newChatId, title: chatTitle, date: "today", timestamp: new Date(), preview: messageText },
-        ...prev
-      ]);
+      setChatHistory(prev =>
+        isCoachChatId(newChatId)
+          ? prev
+          : [
+              { id: newChatId, title: chatTitle, date: "today", timestamp: new Date(), preview: messageText },
+              ...prev,
+            ],
+      );
     } else if (currentChatId) {
       setChatHistory(prev => prev.map(chat => 
         chat.id === currentChatId 
@@ -1343,6 +1355,28 @@ export default function AtlasStandalonePage() {
     }
   };
 
+  /**
+   * Loads a coach conversation into this view's transcript, the same view an
+   * Atlas chat opens in. The coach's name becomes the title; their turns map to
+   * 'atlas' so they use the existing message bubbles.
+   */
+  const handleSelectCoachChat = (conversation: CoachConversationPayload) => {
+    setCurrentChatId(conversation.id);
+    setCurrentChatName(conversation.name);
+    setInputValue("");
+    setAttachedFiles([]);
+    setContexts([]);
+    setChatMessages(
+      conversation.messages.map((message, index) => ({
+        id: `${conversation.id}-${index}`,
+        type: message.from === "user" ? ("user" as const) : ("atlas" as const),
+        content: message.text,
+        timestamp: new Date(),
+        isStreaming: false,
+      })),
+    );
+  };
+
   const handleSelectChat = (chatId: string, chatTitle: string) => {
     setCurrentChatId(chatId);
     setCurrentChatName(chatTitle);
@@ -1404,7 +1438,7 @@ export default function AtlasStandalonePage() {
   const groupedChatHistory = () => {
     const groups: Map<string, typeof chatHistory> = new Map();
     
-    chatHistory.forEach(chat => {
+    chatHistory.filter(c => !isCoachChatId(c.id)).forEach(chat => {
       const label = getDateLabel(chat.timestamp);
       if (!groups.has(label)) {
         groups.set(label, []);
@@ -1797,9 +1831,13 @@ export default function AtlasStandalonePage() {
           <style>{`@keyframes atlas-title-marquee { 0%, 15% { transform: translateX(0); } 85%, 100% { transform: translateX(var(--marquee-shift)); } }`}</style>
           {/* Chat History */}
           <div className="flex flex-col px-1 overflow-y-auto flex-1 min-h-0" style={{ gap: "16px" }}>
-            <CoachChatHistory search={searchQuery} />
+            <CoachChatHistory
+              search={searchQuery}
+              variant="fullscreen"
+              onOpenConversation={handleSelectCoachChat}
+            />
             {(() => {
-              const items = [...chatHistory]
+              const items = [...chatHistory.filter(c => !isCoachChatId(c.id))]
                 .filter((item) => chatsTab !== 'no-chats' || noChatsLocalIds.includes(item.id))
                 .filter((item) => item.title.toLowerCase().includes(searchQuery.toLowerCase()))
                 .sort((a, b) => {
