@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import { createPortal } from "react-dom";
-import { CoachChatHistory } from "@/components/coach-chat-history";
+import { CoachChatHistory, type CoachConversationPayload } from "@/components/coach-chat-history";
 import { motion, AnimatePresence, type Variants } from "framer-motion";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
@@ -1327,6 +1327,13 @@ interface AtlasSidebarProps {
   side?: 'left' | 'right';
 }
 
+/**
+ * Coach conversations carry a `coach:` prefixed id. They belong to the Coaches
+ * group in history and must never appear under Recents, so every place Recents
+ * is read or added to filters on this.
+ */
+const isCoachChatId = (id?: string | null) => !!id && id.startsWith("coach:");
+
 const panelVariants: Variants = {
   hidden: { 
     x: "100%",
@@ -1900,6 +1907,7 @@ interface HistoryPanelProps {
   currentChatId: string | null;
   currentChatName: string;
   onSelectChat?: (chatId: string, chatName: string) => void;
+  onSelectCoachChat?: (conversation: CoachConversationPayload) => void;
   onRenameChat?: (chatId: string, newName: string) => void;
   onDeleteChat?: (chatId: string) => void;
   onTogglePin?: (chatId: string) => void;
@@ -2013,7 +2021,7 @@ function MarqueeTitle({ text, active, testId }: { text: string; active: boolean;
   );
 }
 
-function HistoryPanel({ onBack, onToggle, onNewChat, chats, currentChatId, currentChatName, onSelectChat, onRenameChat, onDeleteChat, onTogglePin }: HistoryPanelProps) {
+function HistoryPanel({ onBack, onToggle, onNewChat, chats, currentChatId, currentChatName, onSelectChat, onSelectCoachChat, onRenameChat, onDeleteChat, onTogglePin }: HistoryPanelProps) {
   const [searchValue, setSearchValue] = useState("");
   const [hoveredItemId, setHoveredItemId] = useState<string | null>(null);
   const [openMenuId, setOpenMenuId] = useState<string | null>(null);
@@ -2030,9 +2038,15 @@ function HistoryPanel({ onBack, onToggle, onNewChat, chats, currentChatId, curre
     setRenameValue("");
   };
 
-  const allChats: HistoryChatItem[] = currentChatId 
+  /*
+   * The open chat is prepended so it always appears in history. Coach
+   * conversations are excluded: they have their own Coaches group, and this
+   * prepend was putting the open coach thread into Recents no matter how the
+   * `chats` prop was filtered upstream.
+   */
+  const allChats: HistoryChatItem[] = currentChatId && !isCoachChatId(currentChatId)
     ? [{ id: currentChatId, name: currentChatName, timestamp: new Date(), pinned: chats.find(c => c.id === currentChatId)?.pinned }, ...chats.filter(c => c.id !== currentChatId)]
-    : chats;
+    : chats.filter(c => !isCoachChatId(c.id));
 
   const filteredChats = allChats.filter(chat => 
     chat.name.toLowerCase().includes(searchValue.toLowerCase())
@@ -2101,7 +2115,13 @@ function HistoryPanel({ onBack, onToggle, onNewChat, chats, currentChatId, curre
               data-testid="input-history-search"
             />
 
-          <CoachChatHistory search={searchValue} />
+          <CoachChatHistory
+            search={searchValue}
+            onOpenConversation={(conversation) => {
+              onSelectCoachChat?.(conversation);
+              onBack();
+            }}
+          />
 
           {filteredChats.length > 0 ? (
               <div className="flex flex-col" style={{ gap: '8px' }}>
@@ -3848,7 +3868,7 @@ function AtlasVersion3({ isVisible = true, onToggle, hideContentGuidance = false
       revived[id] = reviveSharedMessages(msgs);
     }
     setChatMessagesStore(prev => ({ ...prev, ...revived }));
-    setRecentChats(shared.chats.map(c => {
+    setRecentChats(shared.chats.filter(c => !isCoachChatId(c.id)).map(c => {
       const lastAtlas = [...(shared.messages[c.id] || [])].reverse().find(m => m.type === 'atlas');
       return {
         id: c.id,
@@ -3925,7 +3945,7 @@ function AtlasVersion3({ isVisible = true, onToggle, hideContentGuidance = false
 
   useEffect(() => {
     if (!sharedHydratedRef.current || applyingSharedRef.current || isTyping) return;
-    let chats = recentChats.map(c => ({
+    let chats = recentChats.filter(c => !isCoachChatId(c.id)).map(c => ({
       id: c.id,
       name: c.name,
       timestamp: (c.timestamp instanceof Date ? c.timestamp : new Date()).toISOString(),
@@ -3936,7 +3956,13 @@ function AtlasVersion3({ isVisible = true, onToggle, hideContentGuidance = false
     for (const [id, msgs] of Object.entries(chatMessagesStore)) {
       messages[id] = msgs.map(serializeSharedMessage);
     }
-    if (currentChatId && chatMessages.length > 0) {
+    /*
+     * Coach conversations are excluded from the shared state entirely. Without
+     * this the open chat was prepended to `chats` below, then synced straight
+     * back into recentChats — which is how a coach thread kept reappearing
+     * under Recents despite the filters on every read site.
+     */
+    if (currentChatId && chatMessages.length > 0 && !isCoachChatId(currentChatId)) {
       messages[currentChatId] = chatMessages.map(serializeSharedMessage);
       if (chats.some(c => c.id === currentChatId)) {
         chats = chats.map(c => c.id === currentChatId ? { ...c, name: chatName } : c);
@@ -4559,6 +4585,8 @@ function AtlasVersion3({ isVisible = true, onToggle, hideContentGuidance = false
     if (chatMessages.length > 0 && currentChatId) {
       setChatMessagesStore(prev => ({ ...prev, [currentChatId]: chatMessages }));
       setRecentChats(prev => {
+        // A coach conversation never enters Recents.
+        if (isCoachChatId(currentChatId)) return prev;
         const exists = prev.some(chat => chat.id === currentChatId);
         if (!exists) {
           return [{ id: currentChatId, name: chatName, timestamp: new Date() }, ...prev].slice(0, 9);
@@ -4610,6 +4638,8 @@ function AtlasVersion3({ isVisible = true, onToggle, hideContentGuidance = false
     if (currentChatId && chatMessages.length > 0) {
       setChatMessagesStore(prev => ({ ...prev, [currentChatId]: chatMessages }));
       setRecentChats(prev => {
+        // A coach conversation never enters Recents.
+        if (isCoachChatId(currentChatId)) return prev;
         const exists = prev.some(chat => chat.id === currentChatId);
         if (!exists) {
           return [{ id: currentChatId, name: chatName, timestamp: new Date() }, ...prev].slice(0, 9);
@@ -4620,6 +4650,37 @@ function AtlasVersion3({ isVisible = true, onToggle, hideContentGuidance = false
     setCurrentChatId(chatId);
     setChatName(chatNameToSelect);
     setChatMessages(chatMessagesStore[chatId] || []);
+  };
+
+  /**
+   * Loads a coach conversation into the transcript, exactly as selecting a
+   * Recents chat does — same stash-the-current-chat step, same setters. The
+   * coach's name becomes the title; their turns map to 'atlas' so they render
+   * in the existing message bubbles.
+   */
+  const handleSelectCoachChat = (conversation: CoachConversationPayload) => {
+    if (currentChatId && chatMessages.length > 0) {
+      setChatMessagesStore(prev => ({ ...prev, [currentChatId]: chatMessages }));
+      setRecentChats(prev => {
+        // A coach conversation never enters Recents.
+        if (isCoachChatId(currentChatId)) return prev;
+        const exists = prev.some(chat => chat.id === currentChatId);
+        if (!exists) {
+          return [{ id: currentChatId, name: chatName, timestamp: new Date() }, ...prev].slice(0, 9);
+        }
+        return prev;
+      });
+    }
+    setCurrentChatId(conversation.id);
+    setChatName(conversation.name);
+    setChatMessages(
+      conversation.messages.map((message, index) => ({
+        id: `${conversation.id}-${index}`,
+        type: message.from === "user" ? ("user" as const) : ("atlas" as const),
+        content: message.text,
+        timestamp: new Date(),
+      })),
+    );
   };
 
   const handleAttachmentClick = () => {
@@ -4916,10 +4977,11 @@ function AtlasVersion3({ isVisible = true, onToggle, hideContentGuidance = false
           }} 
           onToggle={onToggle}
           onNewChat={handleNewChat}
-          chats={recentChats}
+          chats={recentChats.filter(c => !isCoachChatId(c.id))}
           currentChatId={currentChatId}
           currentChatName={chatName}
           onSelectChat={handleSelectChat}
+          onSelectCoachChat={handleSelectCoachChat}
           onRenameChat={(chatId, newName) => {
             setRecentChats(prev => prev.map(c => c.id === chatId ? { ...c, name: newName } : c));
             if (chatId === currentChatId) {
@@ -5030,7 +5092,7 @@ function AtlasVersion3({ isVisible = true, onToggle, hideContentGuidance = false
                           <span className="text-xs font-semibold text-secondary" style={{ letterSpacing: '0.24px', padding: '6px 8px 2px' }}>Recents</span>
                           {[
                             ...(currentChatId ? [{ id: currentChatId, name: chatName }] : []),
-                            ...recentChats.filter(c => c.id !== currentChatId).slice(0, 6),
+                            ...recentChats.filter(c => c.id !== currentChatId && !isCoachChatId(c.id)).slice(0, 6),
                           ].map((chat) => {
                             const isCurrent = chat.id === currentChatId;
                             return (
@@ -5894,7 +5956,7 @@ function AtlasVersion3({ isVisible = true, onToggle, hideContentGuidance = false
                           data-testid="popover-chat-switcher-welcome"
                         >
                           <span className="text-xs font-semibold text-secondary" style={{ letterSpacing: '0.24px', padding: '6px 8px 2px' }}>Recents</span>
-                          {recentChats.slice(0, 6).map((chat) => (
+                          {recentChats.filter(c => !isCoachChatId(c.id)).slice(0, 6).map((chat) => (
                             <button
                               key={chat.id}
                               className="flex items-center w-full text-left border-none cursor-pointer rounded"
