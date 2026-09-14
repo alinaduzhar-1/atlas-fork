@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import { createPortal } from "react-dom";
+import { CoachChatHistory } from "@/components/coach-chat-history";
 import { motion, AnimatePresence, type Variants } from "framer-motion";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
@@ -2014,7 +2015,6 @@ function MarqueeTitle({ text, active, testId }: { text: string; active: boolean;
 
 function HistoryPanel({ onBack, onToggle, onNewChat, chats, currentChatId, currentChatName, onSelectChat, onRenameChat, onDeleteChat, onTogglePin }: HistoryPanelProps) {
   const [searchValue, setSearchValue] = useState("");
-  const [isSearchFocused, setIsSearchFocused] = useState(false);
   const [hoveredItemId, setHoveredItemId] = useState<string | null>(null);
   const [openMenuId, setOpenMenuId] = useState<string | null>(null);
   const [renamingChatId, setRenamingChatId] = useState<string | null>(null);
@@ -2086,29 +2086,22 @@ function HistoryPanel({ onBack, onToggle, onNewChat, chats, currentChatId, curre
         style={{ padding: '16px', paddingTop: '0' }}
       >
         <div className="flex flex-col" style={{ gap: '24px' }}>
-          <div 
-            className={`flex items-center gap-0.5 h-4 px-1 rounded-base border transition-all ${
-              isSearchFocused 
-                ? 'border-action shadow-[0px_0px_0px_2px_#d2d7fd]' 
-                : 'border-input'
-            }`}
-            style={{ 
-              backgroundColor: '#ffffff',
-              boxShadow: '0px 1px 4px 0px rgba(0,0,0,0.06)'
-            }}
-          >
-            <SearchIcon size="small" variant={isSearchFocused ? "action" : "secondary"} />
-            <input
-              type="text"
+            <TextInput
+              id="atlas-panel-history-search"
+              label="Search history"
+              hideLabel
+              type="search"
+              size="small"
+              fullWidth
+              LeftIcon={<SearchIcon size="small" variant="secondary" />}
+              style={{ height: "34px" }}
               placeholder="Search history"
               value={searchValue}
               onChange={(e) => setSearchValue(e.target.value)}
-              onFocus={() => setIsSearchFocused(true)}
-              onBlur={() => setIsSearchFocused(false)}
-              className="flex-1 text-s text-primary bg-transparent outline-none placeholder:text-secondary"
               data-testid="input-history-search"
             />
-          </div>
+
+          <CoachChatHistory search={searchValue} />
 
           {filteredChats.length > 0 ? (
               <div className="flex flex-col" style={{ gap: '8px' }}>
@@ -2183,7 +2176,8 @@ function HistoryPanel({ onBack, onToggle, onNewChat, chats, currentChatId, curre
                                 style={{
                                   position: 'absolute',
                                   right: '8px',
-                                  bottom: '8px',
+                                  top: '50%',
+                                  transform: 'translateY(-50%)',
                                   background: 'var(--atlas-panel-bg, #ffffff)',
                                   borderRadius: '8px',
                                   visibility: (isHovered || openMenuId === chat.id) ? 'visible' : 'hidden',

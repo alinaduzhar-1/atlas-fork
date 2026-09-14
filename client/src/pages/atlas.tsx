@@ -1,5 +1,6 @@
 import { useState, useRef, useEffect } from "react";
 import { createPortal } from "react-dom";
+import { CoachChatHistory } from "@/components/coach-chat-history";
 import { loadSharedAtlasState, saveSharedAtlasState, subscribeSharedAtlasState, type SharedAtlasState, type SharedMessage } from "@/lib/atlas-sync";
 import { useSearch } from "wouter";
 import { motion, AnimatePresence } from "framer-motion";
@@ -1796,6 +1797,7 @@ export default function AtlasStandalonePage() {
           <style>{`@keyframes atlas-title-marquee { 0%, 15% { transform: translateX(0); } 85%, 100% { transform: translateX(var(--marquee-shift)); } }`}</style>
           {/* Chat History */}
           <div className="flex flex-col px-1 overflow-y-auto flex-1 min-h-0" style={{ gap: "16px" }}>
+            <CoachChatHistory search={searchQuery} />
             {(() => {
               const items = [...chatHistory]
                 .filter((item) => chatsTab !== 'no-chats' || noChatsLocalIds.includes(item.id))
@@ -1859,7 +1861,8 @@ export default function AtlasStandalonePage() {
                             style={{
                               position: 'absolute',
                               right: '4px',
-                              bottom: '6px',
+                              top: '50%',
+                              transform: 'translateY(-50%)',
                               visibility: (isHovered || openRecentMenuId === item.id) ? 'visible' : 'hidden',
                               opacity: (isHovered || openRecentMenuId === item.id) ? 1 : 0,
                               background: '#e7e5e0',
