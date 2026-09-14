@@ -26,7 +26,15 @@ function normaliseDisplayCategory(value: unknown): string | undefined {
   return OTJ_DISPLAY_CATEGORIES.find((c) => c.toLowerCase() === text);
 }
 
-const AZURE_OPENAI_ENDPOINT = process.env.OPENAI_API_BASE_URL || "https://apim-pantheonproxy-aif-dev.azure-api.net";
+/*
+ * Required, with no default: the endpoint is deployment-specific and belongs in
+ * the environment, not in source. Failing fast here matches how SESSION_SECRET
+ * is handled in server/index.ts. See AI-PROXY-SETUP.md for the expected value.
+ */
+const AZURE_OPENAI_ENDPOINT = process.env.OPENAI_API_BASE_URL;
+if (!AZURE_OPENAI_ENDPOINT) {
+  throw new Error("OPENAI_API_BASE_URL environment variable is required");
+}
 const AZURE_OPENAI_API_KEY = process.env.OPENAI_API_KEY;
 const AZURE_DEPLOYMENT_NAME = "gpt4o-2024-11-20";
 const AZURE_API_VERSION = "2024-02-15-preview";
